@@ -268,6 +268,17 @@ table:not([class]) td{border-bottom:1px solid var(--bord)}
 .item.vide{opacity:.4; pointer-events:none}
 .vide-note{color:var(--muted); padding:1rem 0; max-width:36rem}
 
+/* Le chapeau d'une page de liste, sous la cote */
+.chapeau{color:var(--muted); margin-top:1.1rem; max-width:36rem; line-height:1.55}
+
+/* Le lien de retour, en tête d'un texte ou d'une leçon */
+.retour{
+  display:inline-block; margin-bottom:1.6rem; text-decoration:none;
+  font-family:'IBM Plex Mono',Consolas,monospace; font-size:.68rem;
+  text-transform:uppercase; letter-spacing:.1em; color:var(--muted);
+}
+.retour:hover{color:var(--signe)}
+
 @media (max-width:860px){
   body{flex-direction:column}
   #sidebar{width:100%; height:auto; position:static;
@@ -419,12 +430,13 @@ function showHome() {
 /* ── Liste de textes ─────────────────────────────────── */
 function showListe(tag) {
   setActive(tag || 'tous');
-  const titres = { hayes:'Hayes', recherche:'Recherche' };
+  const r = rubriques[tag || 'tous'];
   const liste = prets(tag).sort((a,b) => b.date.localeCompare(a.date));
 
   content.innerHTML = `
-    <h1>${titres[tag] || 'Tous les textes'}</h1>
+    <h1>${esc(r.titre)}</h1>
     <div class="cote">${liste.length} texte${liste.length > 1 ? 's' : ''}</div>
+    ${r.note ? `<div class="chapeau">${r.note}</div>` : ''}
     ${liste.length === 0
       ? `<div class="vide-note">Aucun texte converti pour l'instant.</div>`
       : `<div class="liste" style="margin-top:2.4rem">${liste.map(t => rangee({
@@ -438,9 +450,11 @@ function showListe(tag) {
 /* ── Liste des leçons ────────────────────────────────── */
 function showLecons() {
   setActive('lecons');
+  const r = rubriques.lecons;
   content.innerHTML = `
-    <h1>Leçons</h1>
-    <div class="cote">${lecons.length} leçons · d'après Bowen</div>
+    <h1>${esc(r.titre)}</h1>
+    <div class="cote">${lecons.length} leçons</div>
+    ${r.note ? `<div class="chapeau">${r.note}</div>` : ''}
     <div class="liste" style="margin-top:2.4rem">${lecons.map(l => rangee({
         label:l.title, route:'lecons/'+l.slug, note:l.sujet
       })).join('')}</div>`;
@@ -494,12 +508,21 @@ function habiller(t) {
 /* ── Chargement d'un .md ─────────────────────────────── */
 async function loadPage(route) {
   const t = textes.find(x => 'textes/' + x.slug === route);
+  const l = lecons.find(x => 'lecons/' + x.slug === route);
   setActive(t ? t.tag : route);
+
+  /* D'où vient cette page, pour pouvoir y retourner. */
+  const parent = t ? t.tag : l ? 'lecons' : null;
+  const retour = parent
+    ? `<a class="retour" href="#" onclick="navigate('${parent}');return false;"
+         >← ${esc(rubriques[parent].titre)}</a>`
+    : '';
+
   content.innerHTML = '<div id="loading">Chargement…</div>';
   try {
     const res = await fetch(route + '.md');
     if (!res.ok) throw new Error(res.status);
-    content.innerHTML = marked.parse(await res.text());
+    content.innerHTML = retour + marked.parse(await res.text());
     habiller(t);
     window.scrollTo(0,0);
   } catch {

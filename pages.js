@@ -60,6 +60,32 @@ const textes = [
 
 ];
 
+/* ── Les rubriques ─────────────────────────────────────
+   Titre et chapeau des pages de liste. Changer un texte
+   d'introduction, c'est changer une ligne ici, jamais
+   index.html. `note` accepte du HTML, comme SITE.phrase.
+──────────────────────────────────────────────────────── */
+
+const rubriques = {
+  lecons: {
+    titre:'Leçons',
+    note:'Notes de travail sur <a href="https://digitalhammurabi.com/books" '
+       + 'target="_blank" rel="noopener">Learn to Read Ancient Sumerian</a>, '
+       + 'de Joshua Bowen et Megan Lewis.'
+  },
+  hayes: {
+    titre:'Hayes',
+    note:'Les exercices du manuel, lus et annotés.'
+  },
+  recherche: {
+    titre:'Recherche',
+    note:'Les tablettes choisies. Musées, CDLI.'
+  },
+  tous: {
+    titre:'Tous les textes'
+  },
+};
+
 /* ── Les leçons, reprises de LearnSumerian ─────────────
    Le cours d'après Bowen. Une leçon n'a ni cote CDLI ni
    tag hayes/recherche : c'est une liste à part.
