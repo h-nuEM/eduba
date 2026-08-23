@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Eduba</title>
+
+<!-- Source Serif pour le texte, IBM Plex Mono pour les numéros,
+     étiquettes et cotes, Noto Sans Cuneiform pour les signes.
+     Hors ligne : Georgia, Consolas, Segoe UI Historic. -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Cuneiform&display=swap" rel="stylesheet" />
+
+<script src="marked.min.js"></script>
+<script src="pages.js"></script>
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ── Couleurs ───────────────────────────────────────────
+   Les couleurs du site, l'accent brun passé au rouge.
+   La variante sombre suit le réglage du système.        */
+:root{
+  --bg:#ffffff; --creux:#f5ede4; --bord:#e0cdbf;
+  --text:#2c2018; --muted:#6b5744;
+  --accent:#a04a26; --signe:#a04a26;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#131211; --creux:#1b1917; --bord:#2c2825;
+    --text:#eae5dd; --muted:#8f8880;
+    --accent:#cf8156; --signe:#cf8156;
+  }
+}
+
+html{font-size:17px}
+body{
+  font-family:'Source Serif 4',Georgia,serif;
+  font-optical-sizing:auto;
+  background:var(--bg); color:var(--text);
+  line-height:1.65;
+  display:flex; min-height:100vh;
+}
+
+/* Numéros, étiquettes, cotes : tout ce qui n'est pas le texte. */
+.app{font-family:'IBM Plex Mono',Consolas,monospace; font-size:.7rem; letter-spacing:.02em}
+
+/* ── Colonne latérale ───────────────────────────────────── */
+#sidebar{
+  width:225px; min-width:225px;
+  border-right:1px solid var(--bord);
+  padding:2.4rem 1.8rem 2rem 2rem;
+  position:sticky; top:0; height:100vh; overflow-y:auto;
+}
+.marque{margin-bottom:2.6rem; text-decoration:none; display:block; color:var(--text)}
+.marque .glyphes{
+  font-family:'Noto Sans Cuneiform','Segoe UI Historic','Noto Sans Symbols 2',serif;
+  font-size:2rem; color:var(--signe); line-height:1; display:block;
+}
+.marque .nom{font-size:1.2rem; font-weight:600; margin-top:.55rem}
+.marque .sous{color:var(--muted); margin-top:.05rem}
+
+.nav-groupe{margin-bottom:1.9rem}
+.nav-titre{
+  text-transform:uppercase; letter-spacing:.14em; font-size:.62rem;
+  color:var(--muted); margin-bottom:.55rem;
+}
+.nav-lien{
+  display:flex; justify-content:space-between; gap:1rem;
+  padding:.16rem 0; font-size:.88rem;
+  color:var(--text); text-decoration:none;
+}
+.nav-lien:hover{color:var(--accent)}
+.nav-lien.active{color:var(--accent); font-weight:600}
+.nav-lien .n{color:var(--muted); font-variant-numeric:tabular-nums}
+
+/* ── Contenu ────────────────────────────────────────────── */
+#content{flex:1; padding:2.8rem 3.5rem 7rem; max-width:58rem}
+#loading{color:var(--muted)}
+
+h1{font-size:1.95rem; font-weight:600; line-height:1.15; letter-spacing:-.012em}
+
+/* Titre de section : une étiquette, pas un titre. Aucun filet. */
+#content h2{
+  font-family:'IBM Plex Mono',Consolas,monospace;
+  text-transform:uppercase; letter-spacing:.16em; font-size:.62rem;
+  font-weight:500; color:var(--muted);
+  margin:3.4rem 0 1.1rem;
+}
+/* h3 = la face de la tablette (Obverse, Reverse, Colonne…) */
+#content h3{
+  font-family:'IBM Plex Mono',Consolas,monospace;
+  text-transform:uppercase; letter-spacing:.16em; font-size:.62rem;
+  font-weight:500; color:var(--accent);
+  margin:2rem 0 .6rem;
+}
+#content p{margin-bottom:1rem; max-width:36rem}
+#content ul,#content ol{padding-left:1.3rem; margin-bottom:1rem; max-width:36rem}
+#content li{margin-bottom:.3rem}
+#content a{color:var(--accent); text-underline-offset:3px}
+#content code{
+  font-family:'IBM Plex Mono',Consolas,monospace; font-size:.85em;
+  background:var(--creux); padding:.05em .3em;
+}
+#content blockquote{
+  border-left:2px solid var(--accent); padding-left:1.1rem;
+  margin:1.5rem 0; color:var(--muted); max-width:36rem;
+}
+#content hr{border:none; border-top:1px solid var(--bord); margin:2.5rem 0}
+
+/* La cote sous le titre */
+.cote{
+  font-family:'IBM Plex Mono',Consolas,monospace;
+  color:var(--muted); margin-top:.6rem;
+  text-transform:uppercase; letter-spacing:.1em; font-size:.66rem;
+}
+.cote .sep{opacity:.45; padding:0 .45rem}
+
+/* ── Planches : deux images côte à côte ─────────────────── */
+#content p.planches{
+  display:grid; grid-template-columns:1fr 1fr; gap:1.2rem;
+  max-width:44rem; margin-bottom:1.6rem;
+}
+#content img{max-width:100%; height:auto; border:1px solid var(--bord)}
+
+/* ══════════════════════════════════════════════════════════
+   LES TABLES DU TEXTE
+   Écrites en markdown, rendues comme une édition :
+   le numéro à gauche, un filet, le texte à droite.
+   Pas de trame, pas de cadre.
+══════════════════════════════════════════════════════════ */
+#content table{border-collapse:collapse; margin:0 0 1rem; width:100%}
+#content thead th{
+  font-family:'IBM Plex Mono',Consolas,monospace;
+  text-transform:uppercase; letter-spacing:.14em; font-size:.6rem;
+  color:var(--muted); font-weight:500; text-align:left;
+  padding:0 1.2rem .5rem 0; border-bottom:1px solid var(--bord);
+}
+#content td{padding:.42rem 1.2rem .42rem 0; vertical-align:baseline}
+
+/* Les signes */
+.signe{
+  font-family:'Noto Sans Cuneiform','Segoe UI Historic','Noto Sans Symbols 2',serif;
+  font-size:1.5rem; color:var(--signe); line-height:1.5;
+}
+
+/* Le numéro de ligne, dans sa gouttière */
+table.signes-table,table.cun-table,table.texte-table{max-width:48rem}
+table.signes-table td:first-child,table.cun-table td:first-child,table.texte-table td:first-child,
+table.signes-table th:first-child,table.cun-table th:first-child,table.texte-table th:first-child{
+  font-family:'IBM Plex Mono',Consolas,monospace; font-size:.7rem;
+  color:var(--muted); text-align:right; width:3.2rem;
+  padding-right:1rem; font-variant-numeric:tabular-nums;
+}
+table.signes-table td:nth-child(n+2),table.cun-table td:nth-child(2),table.texte-table td:nth-child(n+2),
+table.signes-table th:nth-child(n+2),table.cun-table th:nth-child(2),table.texte-table th:nth-child(n+2){
+  border-left:1px solid var(--bord); padding-left:1.1rem;
+}
+
+/* Signes et transcription en regard */
+table.signes-table td:nth-child(2){
+  font-family:'Noto Sans Cuneiform','Segoe UI Historic','Noto Sans Symbols 2',serif;
+  font-size:1.5rem; color:var(--signe); line-height:1.5; width:47%;
+}
+table.signes-table td:nth-child(3){font-variant-numeric:tabular-nums}
+
+/* Tables à deux colonnes, gardées si un texte n'a que l'une des deux */
+table.cun-table td:nth-child(2){
+  font-family:'Noto Sans Cuneiform','Segoe UI Historic','Noto Sans Symbols 2',serif;
+  font-size:1.5rem; color:var(--signe); line-height:1.5;
+}
+table.texte-table td:nth-child(2){font-variant-numeric:tabular-nums}
+table.texte-table td:nth-child(3){color:var(--muted)}
+
+/* ── Les tables des leçons ───────────────────────────
+   Le vocabulaire, Sumérien|Cunéiforme|Français, tombe déjà
+   dans vocab-table. Restent deux formes propres au cours. */
+
+/* Liste de signes du cours : Signe | Lecture(s) | Sens.
+   Nom distinct de signes-table, qui désigne ici la table
+   cunéiforme/transcription d'une tablette. */
+table.liste-lectures td:first-child{
+  font-family:'Noto Sans Cuneiform','Segoe UI Historic','Noto Sans Symbols 2',serif;
+  font-size:1.45rem; color:var(--signe); line-height:1.2; white-space:nowrap;
+}
+table.liste-lectures .sign-main{display:block; font-weight:700; letter-spacing:.02em}
+table.liste-lectures .sign-alt{display:block; margin-top:.1rem;
+  font-size:.82em; color:var(--muted)}
+
+/* Hamtu et marû : deux colonnes de signes dans la même table */
+table.hamtu-maru-table td:nth-child(3),
+table.hamtu-maru-table td:nth-child(5){
+  font-family:'Noto Sans Cuneiform','Segoe UI Historic','Noto Sans Symbols 2',serif;
+  font-size:1.3rem; color:var(--signe); line-height:1.3;
+}
+
+/* Déterminatifs et indices : la notation du blog, <sup> et <sub>.
+   Même rendu partout, texte comme vocabulaire. */
+#content sup,#content sub{font-size:.68em; line-height:0; position:relative}
+#content sup{top:-.5em}
+#content sub{bottom:-.22em}
+
+/* Liste de signes : dense, elle se lit en balayant la colonne des signes */
+table.liste-signes{font-size:.86rem; max-width:none}
+table.liste-signes td{border-bottom:1px solid var(--bord); padding:.35rem .9rem .35rem 0}
+table.liste-signes td:nth-child(1){
+  font-family:'IBM Plex Mono',Consolas,monospace; font-size:.7rem;
+  color:var(--muted); text-align:right; width:2.6rem; padding-right:.9rem;
+  font-variant-numeric:tabular-nums;
+}
+table.liste-signes td:nth-child(2){
+  font-family:'Noto Sans Cuneiform','Segoe UI Historic','Noto Sans Symbols 2',serif;
+  font-size:1.5rem; color:var(--signe); line-height:1.4; width:2.6rem;
+}
+table.liste-signes td:nth-child(3){
+  font-family:'IBM Plex Mono',Consolas,monospace; font-size:.68rem;
+  color:var(--muted); width:5.4rem;
+}
+table.liste-signes td:nth-child(4){font-weight:600; width:6rem}
+table.liste-signes td:nth-child(5){color:var(--muted)}
+
+/* Vocabulaire : trois colonnes, des filets, rien d'autre */
+table.vocab-table{max-width:42rem; font-size:.95rem}
+table.vocab-table td{border-bottom:1px solid var(--bord)}
+table.vocab-table td:nth-child(2){
+  font-family:'Noto Sans Cuneiform','Segoe UI Historic','Noto Sans Symbols 2',serif;
+  font-size:1.35rem; color:var(--signe); width:9rem;
+}
+table.vocab-table td:nth-child(3){color:var(--muted)}
+
+/* Une table sans classe reconnue garde des filets simples */
+table:not([class]) td{border-bottom:1px solid var(--bord)}
+
+/* ══════════════════════════════════════════════════════════
+   ACCUEIL
+══════════════════════════════════════════════════════════ */
+.accueil-tete{margin-bottom:2.2rem}
+.accueil-tete .glyphes{
+  font-family:'Noto Sans Cuneiform','Segoe UI Historic','Noto Sans Symbols 2',serif;
+  font-size:3.4rem; color:var(--signe); line-height:1; display:block;
+}
+.accueil-tete h1{margin-top:1rem}
+.accueil-tete .sous{color:var(--muted); margin-top:.45rem; max-width:33rem}
+
+#chercher{
+  font-family:'IBM Plex Mono',Consolas,monospace; font-size:.75rem;
+  padding:.45rem .7rem; width:100%; max-width:50rem; margin-bottom:.6rem;
+  border:1px solid var(--bord); background:transparent; color:var(--text);
+}
+#chercher::placeholder{color:var(--muted)}
+#chercher:focus{outline:none; border-color:var(--accent)}
+
+.liste{border-top:1px solid var(--bord); max-width:50rem}
+.item{
+  display:grid; grid-template-columns:12rem 1fr 7rem;
+  gap:1.6rem; align-items:baseline;
+  padding:.72rem 0; border-bottom:1px solid var(--bord);
+  text-decoration:none; color:var(--text);
+}
+.item:hover .nom-item{color:var(--accent)}
+.nom-item{font-weight:600}
+.item .desc{color:var(--muted); font-size:.93rem}
+.item .meta{
+  font-family:'IBM Plex Mono',Consolas,monospace; font-size:.7rem;
+  text-align:right; color:var(--muted); font-variant-numeric:tabular-nums;
+}
+.item.vide{opacity:.4; pointer-events:none}
+.vide-note{color:var(--muted); padding:1rem 0; max-width:36rem}
+
+@media (max-width:860px){
+  body{flex-direction:column}
+  #sidebar{width:100%; height:auto; position:static;
+           border-right:none; border-bottom:1px solid var(--bord);
+           padding:1.5rem 1.2rem}
+  #content{padding:2rem 1.2rem 4rem}
+  h1{font-size:1.6rem}
+  .accueil-tete .glyphes{font-size:2.6rem}
+  #content p.planches{grid-template-columns:1fr}
+  .item{grid-template-columns:1fr; gap:.15rem}
+  .item .meta{text-align:left}
+  table.texte-table td:nth-child(2){width:auto}
+}
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <a class="marque" href="#" onclick="navigate('');return false;">
+    <span class="glyphes"></span>
+    <span class="nom"></span>
+    <span class="sous app"></span>
+  </a>
+  <div id="nav-sections"></div>
+</nav>
+
+<main id="content"><div id="loading">Chargement…</div></main>
+
+<script>
+/* ═══════════════════════════════════════
+   Tout se construit à partir de pages.js
+════════════════════════════════════════ */
+
+marked.setOptions({ breaks:false, gfm:true });
+
+const content = document.getElementById('content');
+const prets = t => textes.filter(x => x.ready && (!t || x.tag === t));
+const esc = s => String(s).replace(/[&<>"]/g, c =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const jour = d => d ? d.split('-').reverse().join('.') : '';
+
+/* ── Colonne latérale ───────────────────────────────── */
+/* Un lien de la colonne : interne s'il a une route, externe s'il a une url,
+   rien du tout sinon. Sans ça une entrée à route donnait href="undefined". */
+function navLien(x) {
+  if (x.route) return `<a class="nav-lien" href="#" data-route="${x.route}"
+      ><span>${esc(x.label)}</span></a>`;
+  if (x.url)   return `<a class="nav-lien" href="${x.url}" target="_blank"
+      rel="noopener"><span>${esc(x.label)}</span></a>`;
+  return '';
+}
+
+function buildSidebar() {
+  const m = document.querySelector('.marque');
+  m.querySelector('.glyphes').textContent = SITE.glyphes;
+  m.querySelector('.nom').textContent     = SITE.title;
+  m.querySelector('.sous').textContent    = SITE.tagline;
+
+  document.getElementById('nav-sections').innerHTML = `
+    <div class="nav-groupe">
+      <a class="nav-lien" href="#" data-route="">Accueil</a>
+    </div>
+    <div class="nav-groupe">
+      <div class="nav-titre app">Projets</div>
+      ${projets.map(navLien).join('')}
+    </div>
+    <div class="nav-groupe">
+      <div class="nav-titre app">Leçons</div>
+      ${lecons.map(l => navLien({ label:l.title, route:'lecons/'+l.slug })).join('')}
+    </div>
+    <div class="nav-groupe">
+      <div class="nav-titre app">Textes</div>
+      <a class="nav-lien" href="#" data-route="hayes"><span>Hayes</span>
+        <span class="n app">${prets('hayes').length}</span></a>
+      <a class="nav-lien" href="#" data-route="recherche"><span>Recherche</span>
+        <span class="n app">${prets('recherche').length}</span></a>
+      <a class="nav-lien" href="#" data-route="tous"><span>Tous</span>
+        <span class="n app">${prets().length}</span></a>
+    </div>
+    <div class="nav-groupe">
+      <div class="nav-titre app">Références</div>
+      ${references.map(navLien).join('')}
+    </div>
+    <div class="nav-groupe">
+      <div class="nav-titre app">Listes de signes</div>
+      ${signes.map(navLien).join('')}
+    </div>`;
+
+  document.querySelectorAll('.nav-lien[data-route]').forEach(a =>
+    a.addEventListener('click', e => { e.preventDefault(); navigate(a.dataset.route); }));
+}
+
+function setActive(route) {
+  document.querySelectorAll('.nav-lien').forEach(a =>
+    a.classList.toggle('active', a.dataset.route === route));
+}
+
+/* ── Une rangée de la page d'accueil ─────────────────── */
+function rangee(it) {
+  const cible = it.route ? `href="#" onclick="navigate('${it.route}');return false;"`
+              : it.url   ? `href="${it.url}" target="_blank" rel="noopener"`
+              : null;
+  const dedans = `<span class="nom-item">${esc(it.label)}</span>
+     <span class="desc">${esc(it.note || '')}</span>
+     <span class="meta">${esc(it.meta || '')}</span>`;
+  return cible ? `<a class="item" ${cible}>${dedans}</a>`
+               : `<div class="item vide">${dedans}</div>`;
+}
+
+/* ── Accueil ─────────────────────────────────────────── */
+function showHome() {
+  setActive('');
+  const derniers = prets().sort((a,b) => b.date.localeCompare(a.date)).slice(0,5);
+
+  content.innerHTML = `
+    <div class="accueil-tete">
+      <span class="glyphes">${SITE.glyphes}</span>
+      <h1>${esc(SITE.title)}</h1>
+      <div class="sous">${SITE.phrase}</div>
+    </div>
+
+    <input id="chercher" type="search" placeholder="chercher un texte, un signe, un mot…" />
+    <div id="resultats"></div>
+
+    <h2>Projets</h2>
+    <div class="liste">${projets.map(rangee).join('')}</div>
+
+    <h2>Références</h2>
+    <div class="liste">${references.map(rangee).join('')}</div>
+
+    <h2>Listes de signes</h2>
+    <div class="liste">${signes.map(rangee).join('')}</div>
+
+    <h2>Derniers textes lus</h2>
+    ${derniers.length === 0
+      ? `<div class="vide-note">Aucun texte converti pour l'instant.
+           Passer <code>ready</code> à <code>true</code> dans <code>pages.js</code>
+           une fois le fichier écrit.</div>`
+      : `<div class="liste">${derniers.map(t => rangee({
+            label:t.title, route:'textes/'+t.slug,
+            note:[t.source, t.cdli].filter(Boolean).join(' · '),
+            meta:jour(t.date)
+          })).join('')}</div>`}`;
+
+  brancherRecherche();
+  window.scrollTo(0,0);
+}
+
+/* ── Liste de textes ─────────────────────────────────── */
+function showListe(tag) {
+  setActive(tag || 'tous');
+  const titres = { hayes:'Hayes', recherche:'Recherche' };
+  const liste = prets(tag).sort((a,b) => b.date.localeCompare(a.date));
+
+  content.innerHTML = `
+    <h1>${titres[tag] || 'Tous les textes'}</h1>
+    <div class="cote">${liste.length} texte${liste.length > 1 ? 's' : ''}</div>
+    ${liste.length === 0
+      ? `<div class="vide-note">Aucun texte converti pour l'instant.</div>`
+      : `<div class="liste" style="margin-top:2.4rem">${liste.map(t => rangee({
+            label:t.title, route:'textes/'+t.slug,
+            note:[t.source, t.cdli, t.edition].filter(Boolean).join(' · '),
+            meta:jour(t.date)
+          })).join('')}</div>`}`;
+  window.scrollTo(0,0);
+}
+
+/* ── Liste des leçons ────────────────────────────────── */
+function showLecons() {
+  setActive('lecons');
+  content.innerHTML = `
+    <h1>Leçons</h1>
+    <div class="cote">${lecons.length} leçons · d'après Bowen</div>
+    <div class="liste" style="margin-top:2.4rem">${lecons.map(l => rangee({
+        label:l.title, route:'lecons/'+l.slug, note:l.sujet
+      })).join('')}</div>`;
+  window.scrollTo(0,0);
+}
+
+/* ── Mise en forme après le rendu markdown ───────────── */
+function habiller(t) {
+  /* Les tables se reconnaissent à leurs en-têtes. */
+  content.querySelectorAll('table').forEach(table => {
+    const h = [...table.querySelectorAll('thead th')].map(x => x.textContent.trim());
+    const cle = h.join('|');
+    if (cle === 'Rang|Signe|Unicode|Nom|Autres lectures') table.className = 'liste-signes';
+    else if (cle === 'Ligne|Cunéiforme|Transcription')     table.className = 'signes-table';
+    else if (cle === 'Ligne|Cunéiforme')              table.className = 'cun-table';
+    else if (cle.startsWith('Ligne|Transcription'))   table.className = 'texte-table';
+    else if (cle === 'Sumérien|Cunéiforme|Français')  table.className = 'vocab-table';
+    else if (cle === 'Signe|Lecture(s)|Sens')         table.className = 'liste-lectures';
+    else if (cle === 'Sens|Hamtu|Signe|Marû|Signe|Type') table.className = 'hamtu-maru-table';
+  });
+
+  /* Filet de sécurité : {d} tapé à la main devient un exposant,
+     partout, pas seulement dans la colonne Transcription. */
+  content.querySelectorAll('td, p, li').forEach(el => {
+    if (el.innerHTML.includes('{'))
+      el.innerHTML = el.innerHTML.replace(/\{([^}\s]{1,4})\}/g, '<sup>$1</sup>');
+  });
+
+  /* Deux images dans le même paragraphe : côte à côte. */
+  content.querySelectorAll('p').forEach(p => {
+    if (p.querySelectorAll('img').length > 1) p.classList.add('planches');
+  });
+
+  /* La cote va sous le titre, elle vient de pages.js. */
+  const h1 = content.querySelector('h1');
+  if (h1 && t) {
+    /* Une composition personnelle ne se présente pas comme une édition :
+       elle porte sa provenance, pas la rubrique du site. */
+    const perso = t.source === 'Composition personnelle';
+    const bouts = [
+      perso ? t.source : (t.tag === 'hayes' ? 'Hayes' : 'Recherche'),
+      (!perso && t.source && t.source !== 'Hayes') ? t.source : null,
+      t.cdli ? `<a href="https://cdli.earth/${t.cdli}" target="_blank" rel="noopener">CDLI ${t.cdli}</a>` : null,
+      t.edition, jour(t.date)
+    ].filter(Boolean);
+    h1.insertAdjacentHTML('afterend',
+      `<div class="cote">${bouts.join('<span class="sep">·</span>')}</div>`);
+  }
+}
+
+/* ── Chargement d'un .md ─────────────────────────────── */
+async function loadPage(route) {
+  const t = textes.find(x => 'textes/' + x.slug === route);
+  setActive(t ? t.tag : route);
+  content.innerHTML = '<div id="loading">Chargement…</div>';
+  try {
+    const res = await fetch(route + '.md');
+    if (!res.ok) throw new Error(res.status);
+    content.innerHTML = marked.parse(await res.text());
+    habiller(t);
+    window.scrollTo(0,0);
+  } catch {
+    content.innerHTML = `<h1>Page introuvable</h1>
+      <p>Le fichier <code>${esc(route)}.md</code> n'existe pas encore.</p>`;
+  }
+}
+
+/* ── Recherche : titres d'abord, puis le texte des .md ──
+   Les fichiers ne sont chargés qu'au premier caractère tapé,
+   et gardés en mémoire ensuite.                          */
+/* uri5, uri₅ et uri<sub>5</sub> doivent se valoir à la recherche. */
+const normal = s => s.toLowerCase()
+  .replace(/<\/?su[bp]>/g, '')
+  .replace(/[{}]/g, '')
+  .replace(/[\u2080-\u2089]/g, c => String(c.charCodeAt(0) - 0x2080));
+
+let corpus = null;
+async function chargerCorpus() {
+  if (corpus) return corpus;
+  /* Tablettes et leçons dans le même index, décrites de la
+     même façon pour que rangee() les affiche sans distinction. */
+  const sources = [
+    ...prets().map(t => ({ route:'textes/' + t.slug, label:t.title,
+        note:[t.source, t.cdli].filter(Boolean).join(' · '), meta:jour(t.date) })),
+    ...lecons.map(l => ({ route:'lecons/' + l.slug, label:l.title,
+        note:l.sujet, meta:'leçon' })),
+  ];
+  corpus = await Promise.all(sources.map(async x => {
+    try {
+      const r = await fetch(x.route + '.md');
+      return { x, texte: r.ok ? normal(await r.text()) : '' };
+    } catch { return { x, texte:'' }; }
+  }));
+  return corpus;
+}
+
+function brancherRecherche() {
+  const champ = document.getElementById('chercher');
+  const zone  = document.getElementById('resultats');
+  if (!champ) return;
+
+  champ.addEventListener('input', async () => {
+    const q = normal(champ.value.trim());
+    if (!q) { zone.innerHTML = ''; return; }
+    const c = await chargerCorpus();
+    const hits = c.filter(o =>
+      normal(o.x.label).includes(q) || o.texte.includes(q));
+    zone.innerHTML = hits.length === 0
+      ? `<div class="vide-note">Rien trouvé.</div>`
+      : `<div class="liste" style="margin-bottom:1rem">${
+            hits.map(o => rangee(o.x)).join('')}</div>`;
+  });
+}
+
+/* ── Routeur ─────────────────────────────────────────── */
+function navigate(route) { window.location.hash = route; render(route); }
+
+function render(route) {
+  if (!route)                return showHome();
+  if (route === 'hayes')     return showListe('hayes');
+  if (route === 'recherche') return showListe('recherche');
+  if (route === 'tous')      return showListe(null);
+  if (route === 'lecons')    return showLecons();
+  loadPage(route);
+}
+
+buildSidebar();
+render(window.location.hash.slice(1));
+window.addEventListener('hashchange', () => render(window.location.hash.slice(1)));
+</script>
+</body>
+</html>
