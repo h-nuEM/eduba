@@ -71,11 +71,12 @@ const rubriques = {
     titre:'Leçons',
     note:'Notes de travail sur <a href="https://digitalhammurabi.com/books" '
        + 'target="_blank" rel="noopener">Learn to Read Ancient Sumerian</a>, '
-       + 'de Joshua Bowen et Megan Lewis.'
+       + 'de Joshua Bowen et Megan Lewis. Excellent ressource pour débuter de zéro.'
   },
   hayes: {
     titre:'Hayes',
-    note:'Les exercices du manuel, lus et annotés.'
+    note:'Notes de travail sur la grammaire de , <a href="https://www.fnac.com/mp50540507/A-Manual-of-Sumerian-Grammar-and-Texts-by-John-L-Hayes" '
+       + 'target="_blank" rel="noopener">Hayes</a>. Chaque chapitre présente un texte authentique, et son analyse détaillée'
   },
   recherche: {
     titre:'Recherche',
@@ -114,7 +115,7 @@ const lecons = [
 
 const projets = [
   { label:'LearnSumerian', route:'lecons',
-    note:'Le cours de sumérien en français. Bowen.', meta:'8 leçons' },
+    note:'Notes de travail sur "Learn to Read Ancient Sumerian"', meta:'8 leçons' },
   { label:'Hayes', route:'hayes',
     note:'Les exercices du manuel, lus et annotés.' },
   { label:'Recherche', route:'recherche',
