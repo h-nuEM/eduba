@@ -2,7 +2,7 @@
 
 ## Source
 
-[CDLI P227047](https://cdli.earth/artifacts/P227047)
+[CDLI P227047](https://cdli.earth/artifacts/227047)
 
 Louvre Museum, MNB 1371. Note that the tablet on display does not show two lines at the reverse.  Free library of Philadelphia
 

@@ -2,7 +2,7 @@
 
 ## Source
 
-[CDLI P507781](https://cdli.earth/P507781) — période, provenance, musée.
+[CDLI P507781](https://cdli.earth/artifacts/507781) — période, provenance, musée.
 
 ## Photo
 

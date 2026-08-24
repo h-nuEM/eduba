@@ -353,8 +353,10 @@ function buildSidebar() {
       <div class="nav-titre app">Textes</div>
       <a class="nav-lien" href="#" data-route="hayes"><span>Hayes</span>
         <span class="n app">${prets('hayes').length}</span></a>
-      <a class="nav-lien" href="#" data-route="recherche"><span>Recherche</span>
-        <span class="n app">${prets('recherche').length}</span></a>
+      <a class="nav-lien" href="#" data-route="cdli"><span>CDLI</span>
+        <span class="n app">${prets('cdli').length}</span></a>
+      <a class="nav-lien" href="#" data-route="divers"><span>Divers</span>
+        <span class="n app">${prets('divers').length}</span></a>
       <a class="nav-lien" href="#" data-route="tous"><span>Tous</span>
         <span class="n app">${prets().length}</span></a>
     </div>
@@ -495,9 +497,10 @@ function habiller(t) {
        elle porte sa provenance, pas la rubrique du site. */
     const perso = t.source === 'Composition personnelle';
     const bouts = [
-      perso ? t.source : (t.tag === 'hayes' ? 'Hayes' : 'Recherche'),
+      perso ? t.source : rubriques[t.tag].titre,
       (!perso && t.source && t.source !== 'Hayes') ? t.source : null,
-      t.cdli ? `<a href="https://cdli.earth/${t.cdli}" target="_blank" rel="noopener">CDLI ${t.cdli}</a>` : null,
+      /* Le catalogue veut la cote sans son P : /artifacts/391102, pas /artifacts/P391102. */
+      t.cdli ? `<a href="https://cdli.earth/artifacts/${t.cdli.slice(1)}" target="_blank" rel="noopener">CDLI ${t.cdli}</a>` : null,
       t.edition, jour(t.date)
     ].filter(Boolean);
     h1.insertAdjacentHTML('afterend',
@@ -584,7 +587,8 @@ function navigate(route) { window.location.hash = route; render(route); }
 function render(route) {
   if (!route)                return showHome();
   if (route === 'hayes')     return showListe('hayes');
-  if (route === 'recherche') return showListe('recherche');
+  if (route === 'cdli')      return showListe('cdli');
+  if (route === 'divers')    return showListe('divers');
   if (route === 'tous')      return showListe(null);
   if (route === 'lecons')    return showLecons();
   loadPage(route);

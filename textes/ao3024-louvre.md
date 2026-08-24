@@ -2,7 +2,7 @@
 
 ## Source
 
-[CDLI P345345](https://cdli.earth/artifacts/P345345)
+[CDLI P345345](https://cdli.earth/artifacts/345345)
 
 Textes religieux sumériens du Louvre
 

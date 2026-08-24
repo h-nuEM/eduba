@@ -4,7 +4,7 @@
    Chaque texte :
      slug     nom du fichier dans textes/ (sans .md)
      title    titre affiché
-     tag      'hayes' ou 'recherche'
+     tag      'hayes', 'cdli' ou 'divers'
      source   'Hayes', 'CDLI', 'Louvre'
      cdli     numéro P… si le texte est au catalogue, sinon null
      date     date de rédaction (AAAA-MM-JJ)
@@ -19,8 +19,10 @@ const SITE = {
   tagline: 'Textes sumériens',
   glyphes: '𒂍𒁾𒁀',
   /* La phrase d'accueil accepte du HTML, pour pouvoir y mettre un lien. */
-  phrase:  '<a href="https://fr.wikipedia.org/wiki/Eduba" target="_blank" '
-         + 'rel="noopener">La maison des tablettes</a>. '
+  phrase:  'Les <a href="https://fr.wikipedia.org/wiki/Eduba" target="_blank" '
+         + 'rel="noopener">eduba</a> sont les premières écoles de scribes '
+         + 'apparues vers le IVe millénaire av. J.-C. et destinées à '
+         + 'l\'apprentissage des savoirs. '
          + 'Tout ce sur quoi je travaille en sumérien.'
 };
 
@@ -43,20 +45,28 @@ const textes = [
   { slug:'hayes-10',         title:'Hayes 10',                          tag:'hayes',      source:'Hayes',                   cdli:'P226717',  date:'2026-08-07', edition:null, ready:true },
   { slug:'hayes-11',         title:'Hayes 11',                          tag:'hayes',      source:'Hayes',                   cdli:'P432157',  date:'2026-08-10', edition:null, ready:true },
 
-  /* ── Recherche ─────────────────────────────────────── */
-  { slug:'carte-postale',    title:'Carte Postale',                     tag:'recherche',  source:'Composition personnelle', cdli:null,       date:'2025-09-02', edition:null, ready:true },
-  { slug:'ao3024-louvre',    title:'AO 3024 - Le Louvre / IN PROGRESS', tag:'recherche',  source:'Louvre',                  cdli:'P345345',  date:'2025-09-07', edition:null, ready:true },
-  { slug:'gudea-louvre',     title:'Le Louvre - Gudea',                 tag:'recherche',  source:'Louvre',                  cdli:'P232483',  date:'2025-11-21', edition:null, ready:true },
-  { slug:'shulgi-louvre',    title:'Le Louvre - Shulgi',                tag:'recherche',  source:'Louvre',                  cdli:'P227047',  date:'2025-11-24', edition:null, ready:true },
-  { slug:'poids-canard',     title:'Poids Canard',                      tag:'recherche',  source:'CDLI',                    cdli:'P226235',  date:'2025-12-20', edition:null, ready:true },
-  { slug:'entemena-louvre',  title:'Entemena - Le Louvre',              tag:'recherche',  source:'Louvre',                  cdli:'P222512',  date:'2025-12-31', edition:null, ready:true },
-  { slug:'en-cours',         title:'Work in Progress',                  tag:'recherche',  source:null,                      cdli:null,       date:'2026-01-10', edition:null, ready:true },
-  { slug:'recu-cuivre',      title:'Receipt for Copper',                tag:'recherche',  source:'CDLI',                    cdli:'P391102',  date:'2026-02-01', edition:null, ready:true },
-  { slug:'recu-vetement',    title:'Receipt for Garment',               tag:'recherche',  source:'CDLI',                    cdli:'P391105',  date:'2026-02-04', edition:null, ready:true },
-  { slug:'p315432',          title:'Unknown - P315432',                 tag:'recherche',  source:'CDLI',                    cdli:'P315432',  date:'2026-02-07', edition:null, ready:true },
-  { slug:'p391103',          title:'P391103',                           tag:'recherche',  source:'CDLI',                    cdli:'P391103',  date:'2026-02-11', edition:null, ready:true },
-  { slug:'p391104',          title:'P391104',                           tag:'recherche',  source:'CDLI',                    cdli:'P391104',  date:'2026-02-14', edition:null, ready:true },
-  { slug:'p507781',          title:'P507781',                           tag:'recherche',  source:'CDLI',                    cdli:'P507781',  date:'2026-08-21', edition:null, ready:true },
+  /* ── CDLI : les lectures acceptées au catalogue ─────
+     La liste vient de la page d'auteur, cdli.earth/authors/2947.
+     Les trois ont été approuvées par Émilie Pagé-Perron.
+     `date` est pour P331040 la date de soumission, faute de billet.
+     P391104 y reste bien qu'elle ne soit plus au catalogue :
+     soumission refusée par B. Lafont. Sa page le dit en tête.     */
+  { slug:'p331040',          title:'P331040',                           tag:'cdli',       source:'CDLI',                    cdli:'P331040',  date:'2026-01-31', edition:'ITT 5, 9498',  ready:true },
+  { slug:'recu-cuivre',      title:'Receipt for Copper',                tag:'cdli',       source:'CDLI',                    cdli:'P391102',  date:'2026-02-01', edition:'ITT 5, 6700',  ready:true },
+  { slug:'recu-vetement',    title:'Receipt for Garment',               tag:'cdli',       source:'CDLI',                    cdli:'P391105',  date:'2026-02-04', edition:'ITT 5, 6720',  ready:true },
+  { slug:'p391104',          title:'P391104',                           tag:'cdli',       source:'CDLI',                    cdli:'P391104',  date:'2026-02-14', edition:'ITT 5, 6718',  ready:true },
+
+  /* ── Divers ────────────────────────────────────────── */
+  { slug:'carte-postale',    title:'Carte Postale',                     tag:'divers',     source:'Composition personnelle', cdli:null,       date:'2025-09-02', edition:null, ready:true },
+  { slug:'ao3024-louvre',    title:'AO 3024 - Le Louvre / IN PROGRESS', tag:'divers',     source:'Louvre',                  cdli:'P345345',  date:'2025-09-07', edition:null, ready:true },
+  { slug:'gudea-louvre',     title:'Le Louvre - Gudea',                 tag:'divers',     source:'Louvre',                  cdli:'P232483',  date:'2025-11-21', edition:null, ready:true },
+  { slug:'shulgi-louvre',    title:'Le Louvre - Shulgi',                tag:'divers',     source:'Louvre',                  cdli:'P227047',  date:'2025-11-24', edition:null, ready:true },
+  { slug:'poids-canard',     title:'Poids Canard',                      tag:'divers',     source:'CDLI',                    cdli:'P226235',  date:'2025-12-20', edition:null, ready:true },
+  { slug:'entemena-louvre',  title:'Entemena - Le Louvre',              tag:'divers',     source:'Louvre',                  cdli:'P222512',  date:'2025-12-31', edition:null, ready:true },
+  { slug:'en-cours',         title:'Work in Progress',                  tag:'divers',     source:null,                      cdli:null,       date:'2026-01-10', edition:null, ready:true },
+  { slug:'p315432',          title:'Unknown - P315432',                 tag:'divers',     source:'CDLI',                    cdli:'P315432',  date:'2026-02-07', edition:null, ready:true },
+  { slug:'p391103',          title:'P391103',                           tag:'divers',     source:'CDLI',                    cdli:'P391103',  date:'2026-02-11', edition:null, ready:true },
+  { slug:'p507781',          title:'P507781',                           tag:'divers',     source:'CDLI',                    cdli:'P507781',  date:'2026-08-21', edition:null, ready:true },
 
 ];
 
@@ -75,12 +85,18 @@ const rubriques = {
   },
   hayes: {
     titre:'Hayes',
-    note:'Notes de travail sur la grammaire de , <a href="https://www.fnac.com/mp50540507/A-Manual-of-Sumerian-Grammar-and-Texts-by-John-L-Hayes" '
-       + 'target="_blank" rel="noopener">Hayes</a>. Chaque chapitre présente un texte authentique, et son analyse détaillée'
+    note:'Notes de travail sur la grammaire de <a href="https://www.fnac.com/mp50540507/A-Manual-of-Sumerian-Grammar-and-Texts-by-John-L-Hayes" '
+       + 'target="_blank" rel="noopener">Hayes</a>. Chaque chapitre présente un texte authentique et son analyse détaillée.'
   },
-  recherche: {
-    titre:'Recherche',
-    note:'Les tablettes choisies. Musées, CDLI.'
+  cdli: {
+    titre:'CDLI',
+    note:'Mes soumissions CDLI. '
+       + '<a href="https://cdli.earth/authors/2947" '
+       + 'target="_blank" rel="noopener">Ma page d\'auteur</a>'
+  },
+  divers: {
+    titre:'Divers',
+    note:'Tablettes choisies et travail personnel.'
   },
   tous: {
     titre:'Tous les textes'
@@ -89,7 +105,7 @@ const rubriques = {
 
 /* ── Les leçons, reprises de LearnSumerian ─────────────
    Le cours d'après Bowen. Une leçon n'a ni cote CDLI ni
-   tag hayes/recherche : c'est une liste à part.
+   tag de rubrique : c'est une liste à part.
      slug   nom du fichier dans lecons/ (sans .md)
      title  titre court, celui de la colonne
      sujet  ce que la leçon traite
@@ -108,7 +124,7 @@ const lecons = [
 
 /* ── Les rangées de la page d'accueil ──────────────────
    Ajouter un projet, c'est ajouter une ligne.
-   route  : une page d'ici       ('hayes', 'recherche', 'tous')
+   route  : une page d'ici       ('hayes', 'cdli', 'divers', 'tous')
    url    : un site extérieur
    ni l'un ni l'autre : la rangée est grisée, pas cliquable.
 ──────────────────────────────────────────────────────── */
@@ -117,9 +133,11 @@ const projets = [
   { label:'LearnSumerian', route:'lecons',
     note:'Notes de travail sur "Learn to Read Ancient Sumerian"', meta:'8 leçons' },
   { label:'Hayes', route:'hayes',
-    note:'Les exercices du manuel, lus et annotés.' },
-  { label:'Recherche', route:'recherche',
-    note:'Les tablettes choisies. Musées, CDLI.' },
+    note:'Notes de travail sur la grammaire de Hayes.' },
+  { label:'CDLI', route:'cdli',
+    note:'Mes soumissions CDLI.' },
+  { label:'Divers', route:'divers',
+    note:'Tablettes choisies et travail personnel.' },
   { label:'Cuneilab',
     note:'Reconnaissance de signes.', meta:'à venir' },
   { label:'Python',
@@ -132,7 +150,7 @@ const references = [
   { label:'Tables',    route:'reference/tables',
     note:'Cas, pronoms, aspects. Les tableaux du cours.' },
   { label:'CDLI',  url:'https://cdli.earth/',
-    note:'Catalogue, photographies, et mes soumissions.', meta:'↗' },
+    note:'Catalogue, photographies.', meta:'↗' },
   { label:'ePSD2', url:'https://oracc.museum.upenn.edu/epsd2/',
     note:'Dictionnaire.', meta:'↗' },
 ];

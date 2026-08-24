@@ -2,7 +2,7 @@
 
 ## Source
 
-[CDLI P226150](https://cdli.earth/artifacts/P226150)
+[CDLI P226150](https://cdli.earth/artifacts/226150)
 
 ## Planches
 

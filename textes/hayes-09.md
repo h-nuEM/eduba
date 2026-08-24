@@ -2,7 +2,7 @@
 
 ## Source
 
-[CDLI P226821](https://cdli.earth/artifacts/P226821)
+[CDLI P226821](https://cdli.earth/artifacts/226821)
 
 British Museum 118552 >
 
