@@ -23,7 +23,6 @@ const SITE = {
          + 'rel="noopener">eduba</a> sont les premières écoles de scribes '
          + 'apparues vers le IVe millénaire av. J.-C. et destinées à '
          + 'l\'apprentissage des savoirs. '
-         + 'Tout ce sur quoi je travaille en sumérien.'
 };
 
 const textes = [
