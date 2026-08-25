@@ -4,7 +4,7 @@
 
 [CDLI P432157](https://cdli.earth/artifacts/432157)
 
-Pied de vase conservé au Musée National d'Irag
+Pied de vase conservé au Musée National d'Irak
 
 ## Planches
 
