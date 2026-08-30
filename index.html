@@ -331,7 +331,14 @@ function navLien(x) {
   return '';
 }
 
-function buildSidebar() {
+/* La colonne est reconstruite à chaque navigation, parce que le groupe
+   Leçons ne s'affiche que dans la section Leçons. Ailleurs il prendrait
+   huit rangées et repousserait Textes, Références et Listes de signes.
+   Hors de la section, les leçons restent accessibles par Projets. */
+function buildSidebar(route) {
+  route = route || '';
+  const dansLecons = route === 'lecons' || route.startsWith('lecons/');
+
   const m = document.querySelector('.marque');
   m.querySelector('.glyphes').textContent = SITE.glyphes;
   m.querySelector('.nom').textContent     = SITE.title;
@@ -345,10 +352,11 @@ function buildSidebar() {
       <div class="nav-titre app">Projets</div>
       ${projets.map(navLien).join('')}
     </div>
+    ${dansLecons ? `
     <div class="nav-groupe">
       <div class="nav-titre app">Leçons</div>
       ${lecons.map(l => navLien({ label:l.title, route:'lecons/'+l.slug })).join('')}
-    </div>
+    </div>` : ''}
     <div class="nav-groupe">
       <div class="nav-titre app">Textes</div>
       <a class="nav-lien" href="#" data-route="hayes"><span>Hayes</span>
@@ -585,6 +593,7 @@ function brancherRecherche() {
 function navigate(route) { window.location.hash = route; render(route); }
 
 function render(route) {
+  buildSidebar(route);
   if (!route)                return showHome();
   if (route === 'hayes')     return showListe('hayes');
   if (route === 'cdli')      return showListe('cdli');
@@ -594,7 +603,6 @@ function render(route) {
   loadPage(route);
 }
 
-buildSidebar();
 render(window.location.hash.slice(1));
 window.addEventListener('hashchange', () => render(window.location.hash.slice(1)));
 </script>
