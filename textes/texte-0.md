@@ -2,7 +2,7 @@
 
 ## Planches
 
-[![Copie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGeUVzfZv7C-bD9SIlG4ZAr-ep5lWhhh9o3G-TJqcutij7OBUoGn86Nt4qKE5bRdK3qF19q_3FOX7PfnomwOT7huMiE6lcPNSZhjClf2nmybnePa4kWf0igLC6ZqLe5X682vWN8H2CxUOlSsL7211NvZMmpivzGZVJ3Hm84lSMvaBccWHYT2Ke0U4o5Qg/s400/text1_drawing.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGeUVzfZv7C-bD9SIlG4ZAr-ep5lWhhh9o3G-TJqcutij7OBUoGn86Nt4qKE5bRdK3qF19q_3FOX7PfnomwOT7huMiE6lcPNSZhjClf2nmybnePa4kWf0igLC6ZqLe5X682vWN8H2CxUOlSsL7211NvZMmpivzGZVJ3Hm84lSMvaBccWHYT2Ke0U4o5Qg/s848/text1_drawing.png)
+![Copie](images/text1_drawing-2.png)
 
 ## Texte
 

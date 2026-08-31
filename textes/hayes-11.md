@@ -8,7 +8,7 @@ Pied de vase conservé au Musée National d'Irak
 
 ## Planches
 
-[![Copie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN7D959FGWrDnomPe87zveRNV4XcJSfIaXl0JR2TgEz12X9Y-l8NaRdtZRBxJ1W8AWxMWgJruDszdFm6WIBA1H5g6F0BsmiLa8n22Ys5mUxpJewTfDxx_MfxPaFe31bcCT2N7UeVfi2NpGtXSVD7vg5d6YZw2j9wBC3VCBAdu8r8w0Ar9lGPEON2quaFI/s400/P432157_img.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN7D959FGWrDnomPe87zveRNV4XcJSfIaXl0JR2TgEz12X9Y-l8NaRdtZRBxJ1W8AWxMWgJruDszdFm6WIBA1H5g6F0BsmiLa8n22Ys5mUxpJewTfDxx_MfxPaFe31bcCT2N7UeVfi2NpGtXSVD7vg5d6YZw2j9wBC3VCBAdu8r8w0Ar9lGPEON2quaFI/s1493/P432157_img.png)
+![Copie](images/P432157_img.png)
 
 ## Texte
 

@@ -8,8 +8,8 @@ Textes religieux sumériens du Louvre
 
 ## Planches
 
-[![Copie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfYaJnn4VkVM-mOpSDqiUbRQ1BPyk7mX-xLqGeqkZdAiAxl1S2pz3rZ2YRtn6YzMB-dHXunhIbqqLB5q0xLRBadZbA0qZ7Ij81yUy5GQNKoWewnKXofGgR8y69eKIiIRQalKJj31FyKgZmYptmLz6_2QkEV3Cg4loJrqk5GHUO_GnBrU49SLPNN1BK-MY/s400/AO3024.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfYaJnn4VkVM-mOpSDqiUbRQ1BPyk7mX-xLqGeqkZdAiAxl1S2pz3rZ2YRtn6YzMB-dHXunhIbqqLB5q0xLRBadZbA0qZ7Ij81yUy5GQNKoWewnKXofGgR8y69eKIiIRQalKJj31FyKgZmYptmLz6_2QkEV3Cg4loJrqk5GHUO_GnBrU49SLPNN1BK-MY/s764/AO3024.png)
-[![Photographie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNck9u99EeNBp3WcsHHOb-J4FXmoinmZwF0kHk7AGDTJnElt7rKDbv7Pn1KTNMzcYuPVCX3muRycxC_HmQhQp7cPPc6FsdH0onxd1u7eDkNap2EVOm58B_sb7ULu3rpNsvbu2Cs8AEqICN6NLEhz82NdZn9YymZdHsLczJ5yV3TFMXZTGQ6fOdZhcAT1Q/s400/P345345.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNck9u99EeNBp3WcsHHOb-J4FXmoinmZwF0kHk7AGDTJnElt7rKDbv7Pn1KTNMzcYuPVCX3muRycxC_HmQhQp7cPPc6FsdH0onxd1u7eDkNap2EVOm58B_sb7ULu3rpNsvbu2Cs8AEqICN6NLEhz82NdZn9YymZdHsLczJ5yV3TFMXZTGQ6fOdZhcAT1Q/s3757/P345345.jpg)
+![Copie](images/AO3024.png)
+![Photographie](images/P345345.jpg)
 
 ## Texte
 

@@ -6,7 +6,7 @@
 
 ## Planches
 
-[![Photographie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb54hbUOmesMVvX5Joc5rLYizy46C7m6w5VWt6zeoqUeOW1iu1ZQ87Qhey-gh8C5jYMpIVzV5gTJt5RAuaJkJllVi5Z5MLoN65unIXy8mjRmoOzOzDZtPwUt6kdkrqrSw9LMs1Zm_UqWmhdJjdi1MnUUZIseEMMMieKohFVDUEkvIT7DWYRUNXbGCOqMI/s400/Gudea.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb54hbUOmesMVvX5Joc5rLYizy46C7m6w5VWt6zeoqUeOW1iu1ZQ87Qhey-gh8C5jYMpIVzV5gTJt5RAuaJkJllVi5Z5MLoN65unIXy8mjRmoOzOzDZtPwUt6kdkrqrSw9LMs1Zm_UqWmhdJjdi1MnUUZIseEMMMieKohFVDUEkvIT7DWYRUNXbGCOqMI/s4000/Gudea.jpg)
+![Photographie](images/Gudea.jpg)
 
 ## Texte
 

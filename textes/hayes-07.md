@@ -6,7 +6,7 @@
 
 ## Planches
 
-[![Copie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3W7m6_7H4FgD5HNsH1w6JZRgCPHqta0_vwumiD6T31VCQVTpnW1hggH-RrNWWVaP5kTgbRo0PIaL09c-eftbWGTyYjDr6TPeXjfrNa9hd-ULfawI8SXINiTT7M0YwLwgV2FezPONHvHfn0zJ8HSCZoB51VQUz9J7LF0Jx3Fe5fesFcuDQfc1vWMmWBqk/s400/P226571_l.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3W7m6_7H4FgD5HNsH1w6JZRgCPHqta0_vwumiD6T31VCQVTpnW1hggH-RrNWWVaP5kTgbRo0PIaL09c-eftbWGTyYjDr6TPeXjfrNa9hd-ULfawI8SXINiTT7M0YwLwgV2FezPONHvHfn0zJ8HSCZoB51VQUz9J7LF0Jx3Fe5fesFcuDQfc1vWMmWBqk/s1220/P226571_l.jpg)
+![Copie](images/P226571_l.jpg)
 
 ## Texte
 

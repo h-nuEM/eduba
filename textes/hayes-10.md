@@ -6,8 +6,8 @@
 
 ## Planches
 
-[![Copie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4TwOG-lodZWjmQQGmhFOJ4NDFyX7hCyiAZL3J-AYzkX9V7a-_MHSGJNcHUzfAUWX29uAnt7j1tA8Pf1LnQGhyP7RvbyJxM06lftkuzFyIKU0x_OPq3CXChr5ueiGAJjCGdg6izqR02hdECEnouaGFJWm0PMj7hCCKyOgKqdHuEDy6orKQAytROUSAdQU/s1600/P226717_l.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4TwOG-lodZWjmQQGmhFOJ4NDFyX7hCyiAZL3J-AYzkX9V7a-_MHSGJNcHUzfAUWX29uAnt7j1tA8Pf1LnQGhyP7RvbyJxM06lftkuzFyIKU0x_OPq3CXChr5ueiGAJjCGdg6izqR02hdECEnouaGFJWm0PMj7hCCKyOgKqdHuEDy6orKQAytROUSAdQU/s1600/P226717_l.jpg)
-[![Photographie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjya8VYo200e-gSO276vSuWENtlM1Cwre8HWtrgpfMFb9NxV3mHRDZ94zoja12PAS2nZpNna6AmlEfLNpKmMswiK5fiUs0PWctTMJ8e1O-J9oWw88_qNjF1zXkDAOmJmAZmV0XaGDt-5_-xaPrnX1dhbUYNC-wewcyIyXnGuyL0n_Gf8GYBF5ANuFAMG1Q/s400/P226717_d.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjya8VYo200e-gSO276vSuWENtlM1Cwre8HWtrgpfMFb9NxV3mHRDZ94zoja12PAS2nZpNna6AmlEfLNpKmMswiK5fiUs0PWctTMJ8e1O-J9oWw88_qNjF1zXkDAOmJmAZmV0XaGDt-5_-xaPrnX1dhbUYNC-wewcyIyXnGuyL0n_Gf8GYBF5ANuFAMG1Q/s565/P226717_d.jpg)
+![Copie](images/P226717_l.jpg)
+![Photographie](images/P226717_d.jpg)
 
 ## Texte
 

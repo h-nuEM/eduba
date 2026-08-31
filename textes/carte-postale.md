@@ -2,8 +2,8 @@
 
 ## Planches
 
-[![Photographie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK5HLja5XTFdvlIBQMpDCrG2-084Myixyqo70Hls-AdCcP15qi7Hxfx3z4Awz8l67m1I0GhiPeF9LzBgKH1Gy0BWYhAKyQVWy-qNt-w4CA_fF3yyCUN_qKxEXnnw0YyhMDbCVo56GKDa3tLfxMAO5m7qeltJpS4xY6aV2i3BV2_Wh_ZQayiHxoUXx3PGY/s400/cartepostale.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK5HLja5XTFdvlIBQMpDCrG2-084Myixyqo70Hls-AdCcP15qi7Hxfx3z4Awz8l67m1I0GhiPeF9LzBgKH1Gy0BWYhAKyQVWy-qNt-w4CA_fF3yyCUN_qKxEXnnw0YyhMDbCVo56GKDa3tLfxMAO5m7qeltJpS4xY6aV2i3BV2_Wh_ZQayiHxoUXx3PGY/s3109/cartepostale.png)
-[![Photographie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTsNROPYaulNbXCi72-CHvR6QEC8jVEEgbI5OiSVA3dpLQ9Zo3EwTwHe27QKfmLmJA6ZCS5jWI9Gj2H8KTN6-kox4_ZnRK_eXP_ONiKVHZYQuwUSlXF6jF97EJSxY03g-jaKMOW1C_TNZysdaClttWQWzL4ZAThe6qC2_Obtsqwej-s2J5bmq1o3sf78Y/s400/La%20mer.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTsNROPYaulNbXCi72-CHvR6QEC8jVEEgbI5OiSVA3dpLQ9Zo3EwTwHe27QKfmLmJA6ZCS5jWI9Gj2H8KTN6-kox4_ZnRK_eXP_ONiKVHZYQuwUSlXF6jF97EJSxY03g-jaKMOW1C_TNZysdaClttWQWzL4ZAThe6qC2_Obtsqwej-s2J5bmq1o3sf78Y/s2048/La%20mer.jpg)
+![Photographie](images/cartepostale.png)
+![Photographie](images/La_mer.jpg)
 
 ## Texte
 

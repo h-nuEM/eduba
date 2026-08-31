@@ -8,7 +8,7 @@ Louvre Museum, MNB 1371. Note that the tablet on display does not show two lines
 
 ## Planches
 
-[![Photographie](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpxQZGGBAMWjSnnu8wMVAJB8LD8yirS4XrcYSQOv55gs2yo_1_SbH42YhwEiSpGFLvFN7LIXD9TXoJFT6igxJvbZFl9iaJ8-leW8DSxHrV05vfpmDwom880odZa70clWE6xz756lqOPWWqB02vutSsdIfKLHMmpqQR_SbY_IVbM9NORcg-J35QvERagY0/s400/Le%20Louvre.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpxQZGGBAMWjSnnu8wMVAJB8LD8yirS4XrcYSQOv55gs2yo_1_SbH42YhwEiSpGFLvFN7LIXD9TXoJFT6igxJvbZFl9iaJ8-leW8DSxHrV05vfpmDwom880odZa70clWE6xz756lqOPWWqB02vutSsdIfKLHMmpqQR_SbY_IVbM9NORcg-J35QvERagY0/s2785/Le%20Louvre.jpg)
+![Photographie](images/Le_Louvre.jpg)
 
 ## Texte
 
