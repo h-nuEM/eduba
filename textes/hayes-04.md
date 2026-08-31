@@ -36,4 +36,4 @@
 
 ## Traduction
 
-Pour Enlis, le roi de tous les pays, Ur-Nammu, roi d'Uri, roi de Sumer et Akkad a construit son temple,
+Pour Enlil, le roi de tous les pays, Ur-Nammu, roi d'Uri, roi de Sumer et Akkad a construit son temple,

@@ -97,6 +97,17 @@ const rubriques = {
     titre:'Divers',
     note:'Tablettes choisies et travail personnel.'
   },
+  itt5: {
+    titre:'ITT 5',
+    note:'Les tablettes de Tello publiées par Henri de Genouillac en 1921, '
+       + '<i>Inventaire des tablettes de Tello</i>, tome 5, conservées au '
+       + 'Musée archéologique d\'Istanbul. 556 d\'entre elles ont une copie '
+       + 'et une translittération au catalogue '
+       + '<a href="https://cdli.earth/search?simple-value[]=ITT 5&simple-field[]=publication" '
+       + 'target="_blank" rel="noopener">CDLI</a>. Les copies sont affichées '
+       + 'depuis CDLI, aucune n\'est reproduite ici. Flèches gauche et droite '
+       + 'pour passer d\'une tablette à la suivante.'
+  },
   tous: {
     titre:'Tous les textes'
   },
@@ -137,6 +148,8 @@ const projets = [
     note:'Mes soumissions CDLI.' },
   { label:'Divers', route:'divers',
     note:'Tablettes choisies et travail personnel.' },
+  { label:'ITT 5', route:'itt5',
+    note:'Le fonds de Tello, copie et translittération.', meta:'556' },
   { label:'Cuneilab',
     note:'Reconnaissance de signes.', meta:'à venir' },
   { label:'Python',
