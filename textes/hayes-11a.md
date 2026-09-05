@@ -42,10 +42,10 @@ homme puissant,
 roi d'Ur,  
 roi de Sumer et d'Akkad  
 l'eduranki  
-a construit.  
+a construit,  
 a restauré,  
-pour sa vide  
-l'a consacré  
+pour sa vie  
+a consacré.  
 
 ## Traduction suivie
 
