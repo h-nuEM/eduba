@@ -8,7 +8,7 @@
 
 | Ligne | Cunéiforme | Transcription |
 |---|---|---|
-| 1 | 𒀭𒋀𒆠 | <sup>d</sup> X ki |
+| 1 | 𒀭𒋀𒆠 | <sup>d</sup>Inanna |
 | 2 | 𒎏𒀭𒈾 | nin-an-na |
 | 3 | 𒎏𒀀𒉌 | nin-a-ni |
 | 4 | 𒌨𒀭𒇉 | ur-<sup>d</sup>Nammu |

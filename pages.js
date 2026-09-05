@@ -43,6 +43,7 @@ const textes = [
   { slug:'hayes-09a',        title:'Hayes 9a',                          tag:'hayes',      source:'Hayes',                   cdli:'P226524',  date:'2026-08-05', edition:null, ready:true },
   { slug:'hayes-10',         title:'Hayes 10',                          tag:'hayes',      source:'Hayes',                   cdli:'P226717',  date:'2026-08-07', edition:null, ready:true },
   { slug:'hayes-11',         title:'Hayes 11',                          tag:'hayes',      source:'Hayes',                   cdli:'P432157',  date:'2026-08-10', edition:null, ready:true },
+  { slug:'hayes-11a',         title:'Hayes 11a',                          tag:'hayes',      source:'Hayes',                   cdli:'P432157',  date:'2026-09-05', edition:null, ready:true },
 
   /* ── CDLI : les lectures acceptées au catalogue ─────
      La liste vient de la page d'auteur, cdli.earth/authors/2947.

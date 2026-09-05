@@ -2,13 +2,13 @@
 
 ## Source
 
-[CDLI P432157](https://cdli.earth/artifacts/432157)
+[CDLI P247518](https://cdli.earth/artifacts/247518)
 
 
 
 ## Planches
 
-![Copie](images/P432157_img.png)
+![Copie](images/P247518_img.png)
 
 ## Texte
 
