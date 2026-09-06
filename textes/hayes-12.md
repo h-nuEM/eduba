@@ -18,10 +18,11 @@ Pied de vase conservé au Musée National d'Irak
 | 2 | 𒂗𒆤𒆠𒀀 | nibru-a |
 | 3 | 𒀭𒂗𒆤𒇷| <sup>d</sup> Enlil-le |
 | 4 | 𒈬 𒅆𒊒𒁕 | mu-pa<sub>3</sub>-da |
+|   | 𒂍𒂗𒆤𒅗 | e<sub>2</sub> Enlil-ka
 | 5 | 𒊕𒍑 | sag uṣ₂ |
-| 6 | 𒍑𒆗𒂵 | nita kala-ga74 |
+| 6 | 𒍑𒆗𒂵 | nita kala-ga |
 | 7 | 𒆤𒀭𒂗𒆤X | lugal urim<sub>5</sub><sup>ki</sup>-ma |
-| 8 | /// 𒀭𒁕X𒁀 | /// an-da-X-ba |
+| 8 | /// 𒀭𒌒𒁕𒇹𒁀 | /// an-ub-da-limmu2-ba |
 |       |            |                                        |
 
 ## Vocabulaire
@@ -33,22 +34,16 @@ Pied de vase conservé au Musée National d'Irak
 
 ## Traduction
 
-Pour Gilgamesh,  
-d'Enegi,  
-Ur-Nammu,  
-son roi,  
+Amar-Suen,  
+à Nippur,  
+Enlil,  
+ayant invoqué,
+the temple of Enlil  
+XXX,  
 homme puissant,  
-roi d'Ur,  
-roi de Sumer et d'Akkad  
-when the temple of Nanna  
-he built  
-pour sa vie,  
-l'a consacré  
-L'homme cette inscription  
-qui effacera  
-Gilgamesh  
-may he curse him
+roi d'Ur  
+[roi]   des 4 quartiers du monde
+
 
 ## Traduction suivie
 
-Pour Gilgamech d'Enegi, Ur-Nammu, homme puissant, roi d'Ur, roi de Sumer et d'Akkad, quand il eu construit le temple de Nanna, pour sa vie, dédia ce vase. Que Gilgamesh maudisse celui qui effacera cette inscription.
