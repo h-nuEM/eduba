@@ -23,6 +23,10 @@ Textes religieux sumériens du Louvre
 | 6 | 𒂵𒊭𒀭𒋫𒈬X𒅗𒈬𒊑𒍑XX𒊕𒈬X | ga-ša-an ta-mu X ka mu re nita X X mu X |
 | 7 | 𒈬𒁺𒊑𒀀𒄞𒀭𒋢XX𒉣X𒌉(5asz?)𒋛𒈬𒉺𒑖𒅆𒁇𒊑| ... |
 | 8 | 𒂵 𒌋𒈨(ou𒅆?) 𒋫 𒄩𒀊XXX𒌉(5asz?)X 𒉌X𒂊| ... |
+| 9 | 𒄞𒁶𒃷(?)𒋀𒅗𒁀𒊏𒁉𒈬XX𒀭(?)𒁺𒁺| ... |
+| 10 | 𒄠𒋛X𒁀𒁶𒆪X𒁉𒇽𒄀𒄑𒄀𒋗(?)𒁀X𒉌| am-... |
+| n | ... | ... |
+| 20 | 𒆠X𒄘𒁹X𒈠| ... |
 
 ## Vocabulaire
 
