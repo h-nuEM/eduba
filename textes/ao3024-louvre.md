@@ -16,8 +16,8 @@ Textes religieux sumériens du Louvre
 | Ligne | Cunéiforme | Transcription |
 |---|---|---|
 | 1 | 𒍍𒂵𒊭𒀭𒁉𒊏 - 𒊺𒈬𒌦𒈾 (𒂵) | uru<sub>2</sub> ga-ša-an-bi-ra še mu-un-na-(ga) |
-| 2 | 𒈣𒁍𒄀 - 𒀭𒋢𒆳𒊒 - 𒂵𒊭𒀭𒁉𒊏 | ma<sub>2</sub>-gid<sub>2</sub>gi<sub>4</sub> An(d?)-su-eš(?)-X ga-ša-an-bi-ra |
-| 3 | 𒂍𒆠𒐋𒌋𒂵𒈬 - 𒂵𒊭𒀭𒁉𒊏 | e<sub>2</sub>-ki-imin-ga-mu/gu<sub>10</sub> ga-ša-an-bi-ra |
+| 2 | 𒈣𒁍𒄀 - 𒀭𒋢𒆳𒊒 - 𒂵𒊭𒀭𒁉𒊏 | ma<sub>2</sub>-gid<sub>2</sub>gi<sub>4</sub> {d}-su-ku-ru  ga-ša-an-bi-ra |
+| 3 | 𒂍𒆠𒐌𒂵𒈬 - 𒂵𒊭𒀭𒁉𒊏 | e<sub>2</sub>-ki-imin-ga-gu<sub>10</sub> ga-ša-an-bi-ra |
 | 4 | 𒂍𒁴𒃲𒀭𒈾𒈬𒂵𒊭𒀭𒁉𒊏 | e<sub>2</sub>-dim-gal-an-na-mu/gu<sub>10</sub> ga-ša-an-bi-ra |
 | 5 | 𒋫𒀀𒁍𒊏𒂡𒊏𒌉𒌉𒁉𒈬𒌦𒈾X | ta-a-igi-ra ezem-ra dumu dumu-bi mu-un-na-X |
 | 6 | 𒂵𒊭𒀭𒋫𒈬X𒅗𒈬𒊑𒍑XX𒊕𒈬X | ga-ša-an ta-mu X ka mu re nita X X mu X |
@@ -45,8 +45,12 @@ Textes religieux sumériens du Louvre
 
 ## Traduction
 
-La ville est d'accord avec sa reine.
-Le bateau/phare avec sa reine, la déesse Sud
+Il fonda la ville pour sa reine. (il fonda la ville pour la reine (bi: de la ville))
+Le bateau/phare pour sa reine, la déesse Sud
 
+## Note
 
-mon temple Imin pour sa reine
+Genouillac: *Bel hymne intact en l'honneur de Ninlil (Sukurru), relatif à sa ville (urú) et son temple l'é-ki-imin surnommé l'é-dim-gal-an-na (« le mât du ciel »). Sumérien dialectal.
+
+Le début est : urú ga-ša-an-bi-ra še-mu-un-na-[ga] : trois strophes (ki-šub-gú) de 19, 16 et 7 lignes. Le colophon porte : « le nombre des lignes est de 42 » ; en tout, il y en a 46 + 2. Le titre (du texte suivant ?) est donné : <sup>d</sup>A-nun-na-gé-ne e-en-dúr-ru-ne ùg-dúr-ru ùg-dúr-ru-na-bi ù-mu-un-e ba-bi-ib-ri bi-bi kul-la-me-en.*
+
