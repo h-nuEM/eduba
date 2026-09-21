@@ -165,8 +165,10 @@ const references = [
     note:'Cas, pronoms, aspects. Les tableaux du cours.' },
   { label:'CDLI',  url:'https://cdli.earth/',
     note:'Catalogue, photographies.', meta:'↗' },
-  { label:'ePSD2', url:'https://oracc.museum.upenn.edu/epsd2/',
+  { label:'ePSD2', url:'https://oracc.museum.upenn.edu/epsd2/sux',
     note:'Dictionnaire.', meta:'↗' },
+    { label:'OSL', url:'https://oracc.museum.upenn.edu/osl/signlist/',
+    note:'Sign list.', meta:'↗' },
 ];
 
 /* Les listes de signes, celles que je consulte en lisant. */

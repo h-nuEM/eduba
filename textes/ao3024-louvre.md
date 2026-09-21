@@ -45,6 +45,8 @@ Textes religieux sumériens du Louvre
 
 ## Traduction
 
-La ville - pour sa reine
+La ville est d'accord avec sa reine.
+Le bateau/phare avec sa reine, la déesse Sud
+
 
 mon temple Imin pour sa reine
