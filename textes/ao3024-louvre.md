@@ -8,8 +8,8 @@ Textes religieux sumériens du Louvre
 
 ## Planches
 
-[![Copie](images/P345345.jpg)](images/P345345.jpg)
-[![Photographie](images/P345345_img.jpg)](images/P345345_img.jpg)
+<a href="/images/P345345.jpg" target="_blank" rel="noopener"><img src="/images/P345345.jpg" alt="Copie"></a>
+<a href="/images/P345345_img.jpg" target="_blank" rel="noopener"><img src="/images/P345345_img.jpg" alt="Photographie"></a>
 
 ## Texte
 
@@ -53,4 +53,3 @@ Le bateau/phare pour sa reine, la déesse Sud
 Genouillac: *Bel hymne intact en l'honneur de Ninlil (Sukurru), relatif à sa ville (urú) et son temple l'é-ki-imin surnommé l'é-dim-gal-an-na (« le mât du ciel »). Sumérien dialectal.
 
 Le début est : urú ga-ša-an-bi-ra še-mu-un-na-[ga] : trois strophes (ki-šub-gú) de 19, 16 et 7 lignes. Le colophon porte : « le nombre des lignes est de 42 » ; en tout, il y en a 46 + 2. Le titre (du texte suivant ?) est donné : <sup>d</sup>A-nun-na-gé-ne e-en-dúr-ru-ne ùg-dúr-ru ùg-dúr-ru-na-bi ù-mu-un-e ba-bi-ib-ri bi-bi kul-la-me-en.*
-
