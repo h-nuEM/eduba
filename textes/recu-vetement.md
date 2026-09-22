@@ -12,17 +12,19 @@
 
 ### Obverse
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒀸𒌆𒀀𒋢𒈝𒍝 | 1(aš) <sup>tug<sub>2</sub></sup> aktum gu-za |
-| 2 | 𒊩𒆳𒄘𒂗𒈾 | geme<sub>2</sub> gu<sub>2</sub>-en-na |
+<span class="app">1</span> <span class="signe">𒀸𒌆𒀀𒋢𒈝𒍝</span><br>
+1(aš) <sup>tug<sub>2</sub></sup> aktum gu-za
+
+<span class="app">2</span> <span class="signe">𒊩𒆳𒄘𒂗𒈾</span><br>
+geme<sub>2</sub> gu<sub>2</sub>-en-na
 
 ### Reverse
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒍣𒂵 | zi-ga |
-| 2 | 𒌨𒂄 | Ur-dun |
+<span class="app">1</span> <span class="signe">𒍣𒂵</span><br>
+zi-ga
+
+<span class="app">2</span> <span class="signe">𒌨𒂄</span><br>
+Ur-dun
 
 ## Traduction
 

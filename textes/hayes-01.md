@@ -10,16 +10,29 @@
 
 ## Texte
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒀭𒋀𒆠 | <sup>d</sup>Nanna |
-| 2 | 𒈗𒀀𒉌 | lugal-a-ni |
-| 3 | 𒌨𒀭𒇉 | Ur-<sup>d</sup>Nammu |
-| 4 | 𒈗𒋀𒀊𒆠𒈠𒆤 | lugal Urim<sub>5</sub><sup>ki</sup>-ma-ke<sub>4</sub> |
-| 5 | 𒂍𒀀𒉌 | e<sub>2</sub>-a-ni |
-| 6 | 𒈬𒈾𒆕 | mu-na-du |
-| 7 | 𒂦𒋀𒀊𒆠𒈠 | bad<sub>3></sub> Urim<sub>5</sub><sup>ki</sup>-ma |
-| 8 | 𒈬𒈾𒆕 | mu-na-du |
+<span class="app">1</span> <span class="signe">𒀭𒋀𒆠</span><br>
+<sup>d</sup>Nanna
+
+<span class="app">2</span> <span class="signe">𒈗𒀀𒉌</span><br>
+lugal-a-ni
+
+<span class="app">3</span> <span class="signe">𒌨𒀭𒇉</span><br>
+Ur-<sup>d</sup>Nammu
+
+<span class="app">4</span> <span class="signe">𒈗𒋀𒀊𒆠𒈠𒆤</span><br>
+lugal Urim<sub>5</sub><sup>ki</sup>-ma-ke<sub>4</sub>
+
+<span class="app">5</span> <span class="signe">𒂍𒀀𒉌</span><br>
+e<sub>2</sub>-a-ni
+
+<span class="app">6</span> <span class="signe">𒈬𒈾𒆕</span><br>
+mu-na-du
+
+<span class="app">7</span> <span class="signe">𒂦𒋀𒀊𒆠𒈠</span><br>
+bad<sub>3></sub> Urim<sub>5</sub><sup>ki</sup>-ma
+
+<span class="app">8</span> <span class="signe">𒈬𒈾𒆕</span><br>
+mu-na-du
 
 ## Vocabulaire
 

@@ -10,16 +10,29 @@
 
 ## Texte
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒀭𒌓 | (<sup>d</sup>)Utul |
-| 2 | 𒈗𒀀𒉌 | lugal-a-ni |
-| 3 | 𒌨𒀭𒇉 | ur-Nammu |
-| 4 | 𒍑𒆗𒂵 | nita-kalag-ga |
-| 5 | 𒈗𒋀𒀊𒆠𒈠 | lugal uri<sup>ki</sup>-ma |
-| 6 | 𒈗𒆠𒂗𒄀𒆠𒆠𒌵𒆤 | lugal ki-en-gi<sup>ki</sup> ki-uri ke<sub>4</sub> |
-| 7 | 𒂍𒀀𒉌 | e<sub>2</sub>-a-ni-še<sub>3</sub> |
-| 8 | 𒈬𒈾𒆕 | mu-na-du<sub>3</sub> |
+<span class="app">1</span> <span class="signe">𒀭𒌓</span><br>
+(<sup>d</sup>)Utul
+
+<span class="app">2</span> <span class="signe">𒈗𒀀𒉌</span><br>
+lugal-a-ni
+
+<span class="app">3</span> <span class="signe">𒌨𒀭𒇉</span><br>
+ur-Nammu
+
+<span class="app">4</span> <span class="signe">𒍑𒆗𒂵</span><br>
+nita-kalag-ga
+
+<span class="app">5</span> <span class="signe">𒈗𒋀𒀊𒆠𒈠</span><br>
+lugal uri<sup>ki</sup>-ma
+
+<span class="app">6</span> <span class="signe">𒈗𒆠𒂗𒄀𒆠𒆠𒌵𒆤</span><br>
+lugal ki-en-gi<sup>ki</sup> ki-uri ke<sub>4</sub>
+
+<span class="app">7</span> <span class="signe">𒂍𒀀𒉌</span><br>
+e<sub>2</sub>-a-ni-še<sub>3</sub>
+
+<span class="app">8</span> <span class="signe">𒈬𒈾𒆕</span><br>
+mu-na-du<sub>3</sub>
 
 ## Vocabulaire
 

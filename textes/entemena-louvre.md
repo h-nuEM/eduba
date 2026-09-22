@@ -12,50 +12,90 @@
 
 ### Column 1
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒂗𒋼𒈨𒈾 | Entemena |
-| 2 | 𒇽𒂍𒁋 | lu<sub>2</sub> e<sub>2</sub>-bappir<sub>3</sub> |
-| 3 | 𒀭𒎏𒄈𒋢𒅗𒆕𒀀 | <sup>d</sup>nin-gir-su-ka du<sub>3</sub>-a |
-| 4 | 𒀭𒂗𒆤𒊏 | diĝir-ra-ni |
-| 5 | 𒀭𒀀𒉌 | <sup>d</sup>Šul-muš |
-| 6 | 𒀭𒋚𒈲 |  |
+<span class="app">1</span> <span class="signe">𒂗𒋼𒈨𒈾</span><br>
+Entemena
+
+<span class="app">2</span> <span class="signe">𒇽𒂍𒁋</span><br>
+lu<sub>2</sub> e<sub>2</sub>-bappir<sub>3</sub>
+
+<span class="app">3</span> <span class="signe">𒀭𒎏𒄈𒋢𒅗𒆕𒀀</span><br>
+<sup>d</sup>nin-gir-su-ka du<sub>3</sub>-a
+
+<span class="app">4</span> <span class="signe">𒀭𒂗𒆤𒊏</span><br>
+diĝir-ra-ni
+
+<span class="app">5</span> <span class="signe">𒀭𒀀𒉌</span><br>
+<sup>d</sup>Šul-muš
+
+<span class="app">6</span> <span class="signe">𒀭𒋚𒈲</span>
 
 ### Column 2
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒂗𒋫𒈨𒈾𒆤(?) | En-ta-me-na-ke<sub>4</sub> |
-| 2 | 𒈗𒆠𒀭𒈾𒉘𒂷𒉌 | lugal ki an-na-ag<sub>2</sub>-ga<sub>2</sub>-ni |
-| 3 | 𒀭𒎏𒄈𒋢𒊏 | <sup>d</sup>nin-gir-su-ra |
-| 4 | 𒂍𒁋𒈬𒆕 | e<sub>2</sub>-bappir<sub>3</sub> mu-du |
+<span class="app">1</span> <span class="signe">𒂗𒋫𒈨𒈾𒆤(?)</span><br>
+En-ta-me-na-ke<sub>4</sub>
+
+<span class="app">2</span> <span class="signe">𒈗𒆠𒀭𒈾𒉘𒂷𒉌</span><br>
+lugal ki an-na-ag<sub>2</sub>-ga<sub>2</sub>-ni
+
+<span class="app">3</span> <span class="signe">𒀭𒎏𒄈𒋢𒊏</span><br>
+<sup>d</sup>nin-gir-su-ra
+
+<span class="app">4</span> <span class="signe">𒂍𒁋𒈬𒆕</span><br>
+e<sub>2</sub>-bappir<sub>3</sub> mu-du
 
 ### Column 3
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒂍𒀜𒁕 | e<sub>2</sub>-ad-7 |
-| 2 | 𒉎𒊕𒂷 | im-sag-ga<sub>4</sub> |
-| 3 | 𒈬𒈾𒆕 | mu-na-du<sub>3</sub> |
-| 4 | 𒂍𒀭𒂷𒉐𒄭 | e<sub>2</sub><sup>d</sup>ga<sub>2</sub>-tum<sub>3</sub>-dug |
-| 5 | 𒈬𒆕 | <sup>d</sup>Nanše |
-| 6 | 𒀭𒀏 | ša<sub>3</sub> pa<sub>3</sub>-da |
-| 7 | 𒊮𒉻𒁕 | mu-na-du<sub>3</sub> |
-| 8 | 𒈬𒈾𒆕 | gi-gu<sub>3</sub>-na mah-ni |
-| 9 | 𒄀𒅗𒈾𒈤𒉌 |  |
+<span class="app">1</span> <span class="signe">𒂍𒀜𒁕</span><br>
+e<sub>2</sub>-ad-7
+
+<span class="app">2</span> <span class="signe">𒉎𒊕𒂷</span><br>
+im-sag-ga<sub>4</sub>
+
+<span class="app">3</span> <span class="signe">𒈬𒈾𒆕</span><br>
+mu-na-du<sub>3</sub>
+
+<span class="app">4</span> <span class="signe">𒂍𒀭𒂷𒉐𒄭</span><br>
+e<sub>2</sub><sup>d</sup>ga<sub>2</sub>-tum<sub>3</sub>-dug
+
+<span class="app">5</span> <span class="signe">𒈬𒆕</span><br>
+<sup>d</sup>Nanše
+
+<span class="app">6</span> <span class="signe">𒀭𒀏</span><br>
+ša<sub>3</sub> pa<sub>3</sub>-da
+
+<span class="app">7</span> <span class="signe">𒊮𒉻𒁕</span><br>
+mu-na-du<sub>3</sub>
+
+<span class="app">8</span> <span class="signe">𒈬𒈾𒆕</span><br>
+gi-gu<sub>3</sub>-na mah-ni
+
+<span class="app">9</span> <span class="signe">𒄀𒅗𒈾𒈤𒉌</span>
 
 ### Column 4
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒀭𒎏𒄯𒊕 | <sup>d</sup>nin-hur-saĝ-ra |
-| 2 | 𒄀𒅗𒈾 | gi-gu<sub>3</sub>-na |
-| 3 | 𒌁𒆬𒁋 | tir-ku<sub>3</sub>-ga |
-| 4 | 𒈬𒈾𒆕 | mu-na-du<sub>3</sub> |
-| 5 | 𒀭𒎏𒄈𒋢𒊏 | <sup>d</sup>nin-gir-su-ra |
-| 6 | 𒀭𒄞𒋩𒊏 | an-ta-su-ra |
-| 7 | X | mu-na-du<sub>3</sub> |
-| 8 | 𒂍X𒂵𒆳𒆳𒊏X𒆪 | <sup>d</sup>nin-gir-su-ra |
+<span class="app">1</span> <span class="signe">𒀭𒎏𒄯𒊕</span><br>
+<sup>d</sup>nin-hur-saĝ-ra
+
+<span class="app">2</span> <span class="signe">𒄀𒅗𒈾</span><br>
+gi-gu<sub>3</sub>-na
+
+<span class="app">3</span> <span class="signe">𒌁𒆬𒁋</span><br>
+tir-ku<sub>3</sub>-ga
+
+<span class="app">4</span> <span class="signe">𒈬𒈾𒆕</span><br>
+mu-na-du<sub>3</sub>
+
+<span class="app">5</span> <span class="signe">𒀭𒎏𒄈𒋢𒊏</span><br>
+<sup>d</sup>nin-gir-su-ra
+
+<span class="app">6</span> <span class="signe">𒀭𒄞𒋩𒊏</span><br>
+an-ta-su-ra
+
+<span class="app">7</span> <span class="signe">X</span><br>
+mu-na-du<sub>3</sub>
+
+<span class="app">8</span> <span class="signe">𒂍X𒂵𒆳𒆳𒊏X𒆪</span><br>
+<sup>d</sup>nin-gir-su-ra
 
 ## Vocabulaire
 

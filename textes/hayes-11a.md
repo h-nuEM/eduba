@@ -12,19 +12,38 @@
 
 ## Texte
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒀭𒈹 | Inanna |
-| 2 | 𒎏𒀀𒉌 | nin-a-ni |
-| 3 | 𒂄𒄀 | Shulgi |
-| 5 | 𒍑𒆗𒂵 | nita kala-ga |
-| 6 | 𒈗𒋀𒀊𒆠𒈠 | lugal urim<sub>5</sub><sup>ki</sup>-ma |
-| 7 | 𒈗𒆠𒂗𒄀𒆠𒌵𒆤 | lugal <sup>ki</sup>en-gi <sup>ki</sup>Uri-ke<sub>4</sub> |
-| 8 | 𒆤𒄙𒀭𒆠𒄙𒉌 | e<sub>2</sub> dur-an-ki-ka-ni |
-| 9 | 𒈬𒈾𒆕 | mu-na-du |
-| 10 | 𒆠𒁉𒈬𒈾𒄄 | ki-bi mu-na-gi<sub>4</sub> |
-| 12 | 𒉆𒋾𒆷𒉌X | nam-ti-la-ni X |
-| 13 | 𒀀𒈬𒈾𒊒 | a mu-na-ru                                               |
+<span class="app">1</span> <span class="signe">𒀭𒈹</span><br>
+Inanna
+
+<span class="app">2</span> <span class="signe">𒎏𒀀𒉌</span><br>
+nin-a-ni
+
+<span class="app">3</span> <span class="signe">𒂄𒄀</span><br>
+Shulgi
+
+<span class="app">5</span> <span class="signe">𒍑𒆗𒂵</span><br>
+nita kala-ga
+
+<span class="app">6</span> <span class="signe">𒈗𒋀𒀊𒆠𒈠</span><br>
+lugal urim<sub>5</sub><sup>ki</sup>-ma
+
+<span class="app">7</span> <span class="signe">𒈗𒆠𒂗𒄀𒆠𒌵𒆤</span><br>
+lugal <sup>ki</sup>en-gi <sup>ki</sup>Uri-ke<sub>4</sub>
+
+<span class="app">8</span> <span class="signe">𒆤𒄙𒀭𒆠𒄙𒉌</span><br>
+e<sub>2</sub> dur-an-ki-ka-ni
+
+<span class="app">9</span> <span class="signe">𒈬𒈾𒆕</span><br>
+mu-na-du
+
+<span class="app">10</span> <span class="signe">𒆠𒁉𒈬𒈾𒄄</span><br>
+ki-bi mu-na-gi<sub>4</sub>
+
+<span class="app">12</span> <span class="signe">𒉆𒋾𒆷𒉌X</span><br>
+nam-ti-la-ni X
+
+<span class="app">13</span> <span class="signe">𒀀𒈬𒈾𒊒</span><br>
+a mu-na-ru
 
 ## Vocabulaire
 

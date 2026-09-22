@@ -10,21 +10,43 @@
 
 ## Texte
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒀭𒋀𒆠 | <sup>d</sup>Nanna |
-| 2 | 𒌉𒊕 | dumu saĝ |
-| 3 | 𒀭𒂗𒆤𒇲 | <sup>d</sup>en-lil<sub>2</sub>-la<sub>2</sub> |
-| 4 | 𒈗𒀀𒉌 | Ur-Nammu |
-| 5 | 𒌨𒀭𒇉 | nita kala-ga |
-| 6 | 𒍑𒆗𒂵 | en unug<sup>ki</sup>-ga |
-| 7 | 𒂗𒀕𒆠𒂵 | lugal Uri<sup>ki</sup>-ma |
-| 8 | 𒈗𒋀𒀊𒆠𒈠 | lugal <sup>ki</sup>en-gi <sup>ki</sup>Uri-ke<sub>4</sub> |
-| 9 | 𒈗𒆠𒂗𒄀𒆠𒌵𒆤 | e<sub>2</sub>-temen-ni<sub>2</sub>-guru |
-| 10 | 𒂍𒋼𒉎𒅍 | e<sub>2</sub> ki-aĝ<sub>2</sub>-ga<sub>2</sub>-ni |
-| 11 | 𒂍𒆠𒉘𒂷𒉌 | mu-na-du |
-| 12 | 𒈬𒈾𒆕 | ki-bi mu-na-gi<sub>4</sub> |
-| 13 | 𒆠𒁉𒈬𒈾𒄄 |  |
+<span class="app">1</span> <span class="signe">𒀭𒋀𒆠</span><br>
+<sup>d</sup>Nanna
+
+<span class="app">2</span> <span class="signe">𒌉𒊕</span><br>
+dumu saĝ
+
+<span class="app">3</span> <span class="signe">𒀭𒂗𒆤𒇲</span><br>
+<sup>d</sup>en-lil<sub>2</sub>-la<sub>2</sub>
+
+<span class="app">4</span> <span class="signe">𒈗𒀀𒉌</span><br>
+Ur-Nammu
+
+<span class="app">5</span> <span class="signe">𒌨𒀭𒇉</span><br>
+nita kala-ga
+
+<span class="app">6</span> <span class="signe">𒍑𒆗𒂵</span><br>
+en unug<sup>ki</sup>-ga
+
+<span class="app">7</span> <span class="signe">𒂗𒀕𒆠𒂵</span><br>
+lugal Uri<sup>ki</sup>-ma
+
+<span class="app">8</span> <span class="signe">𒈗𒋀𒀊𒆠𒈠</span><br>
+lugal <sup>ki</sup>en-gi <sup>ki</sup>Uri-ke<sub>4</sub>
+
+<span class="app">9</span> <span class="signe">𒈗𒆠𒂗𒄀𒆠𒌵𒆤</span><br>
+e<sub>2</sub>-temen-ni<sub>2</sub>-guru
+
+<span class="app">10</span> <span class="signe">𒂍𒋼𒉎𒅍</span><br>
+e<sub>2</sub> ki-aĝ<sub>2</sub>-ga<sub>2</sub>-ni
+
+<span class="app">11</span> <span class="signe">𒂍𒆠𒉘𒂷𒉌</span><br>
+mu-na-du
+
+<span class="app">12</span> <span class="signe">𒈬𒈾𒆕</span><br>
+ki-bi mu-na-gi<sub>4</sub>
+
+<span class="app">13</span> <span class="signe">𒆠𒁉𒈬𒈾𒄄</span>
 
 ## Vocabulaire
 

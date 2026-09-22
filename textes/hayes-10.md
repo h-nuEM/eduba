@@ -11,20 +11,41 @@
 
 ## Texte
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒀭(X)𒆗 | <sup>d</sup>Lamma |
-| 2 | 𒎏𒀀𒉌 | nin-a-ni |
-| 3 | 𒉆𒋾 | nam-ti |
-| 4 | 𒀭𒂄𒄀 | <sup>d</sup>šul-gi |
-| 5 | 𒍑𒆗𒂵 | nita kala-ga |
-| 6 | 𒈗𒋀𒀊𒆠𒈠𒅗𒂠 | lugal uri<sub>5</sub><sup>ki</sup>-ma-ka-še<sub>3</sub> |
-| 7 | 𒀭𒁀𒌑𒎏𒀀𒀭 | <sup>d</sup>ba-u<sub>2</sub> nin-am<sub>3</sub> |
-| 8 | 𒌓𒅗𒁇𒆪 | zabar-dab<sub>5</sub> |
-| 9 | 𒌨𒀭𒎏𒄈𒍪 | Ur <sup>d</sup>Nin-gir<sub>2</sub>-su |
-| 10 | 𒂗𒆠𒉘𒀭𒀏𒅗𒂍 | en ki-ag<sub>2</sub> <sup>d</sup>Nanše-ka-ke<sub>4</sub> |
-| 11 | 𒄭𒇷𒉆𒊩𒅗𒉌 | hi-li nam-munus-ka-ni |
-| 12 | 𒈬𒈾𒁶 | mu-na-dim<sub>2</sub> |
+<span class="app">1</span> <span class="signe">𒀭(X)𒆗</span><br>
+<sup>d</sup>Lamma
+
+<span class="app">2</span> <span class="signe">𒎏𒀀𒉌</span><br>
+nin-a-ni
+
+<span class="app">3</span> <span class="signe">𒉆𒋾</span><br>
+nam-ti
+
+<span class="app">4</span> <span class="signe">𒀭𒂄𒄀</span><br>
+<sup>d</sup>šul-gi
+
+<span class="app">5</span> <span class="signe">𒍑𒆗𒂵</span><br>
+nita kala-ga
+
+<span class="app">6</span> <span class="signe">𒈗𒋀𒀊𒆠𒈠𒅗𒂠</span><br>
+lugal uri<sub>5</sub><sup>ki</sup>-ma-ka-še<sub>3</sub>
+
+<span class="app">7</span> <span class="signe">𒀭𒁀𒌑𒎏𒀀𒀭</span><br>
+<sup>d</sup>ba-u<sub>2</sub> nin-am<sub>3</sub>
+
+<span class="app">8</span> <span class="signe">𒌓𒅗𒁇𒆪</span><br>
+zabar-dab<sub>5</sub>
+
+<span class="app">9</span> <span class="signe">𒌨𒀭𒎏𒄈𒍪</span><br>
+Ur <sup>d</sup>Nin-gir<sub>2</sub>-su
+
+<span class="app">10</span> <span class="signe">𒂗𒆠𒉘𒀭𒀏𒅗𒂍</span><br>
+en ki-ag<sub>2</sub> <sup>d</sup>Nanše-ka-ke<sub>4</sub>
+
+<span class="app">11</span> <span class="signe">𒄭𒇷𒉆𒊩𒅗𒉌</span><br>
+hi-li nam-munus-ka-ni
+
+<span class="app">12</span> <span class="signe">𒈬𒈾𒁶</span><br>
+mu-na-dim<sub>2</sub>
 
 ## Vocabulaire
 

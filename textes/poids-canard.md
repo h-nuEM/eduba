@@ -11,16 +11,29 @@
 
 ## Texte
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒀭𒋀𒆠 | <sup>d</sup> Nanna |
-| 2 | 𒈗𒀀𒉌 | lugal-a-ni |
-| 3 | 𒀭𒂄𒄀 | <sup>d</sup> Šul-gi |
-| 4 | 𒍑𒆗𒂵 | nita kala-ga |
-| 5 | 𒈗𒋀𒀊𒆠𒈠 | lugal Uri<sup>ki</sup>-ma |
-| 6 | 𒈗𒀭𒌒𒁕𒇹𒁀𒆤 | lugal an-ub-da limmu-ba-ke<sub>4</sub> |
-| 7 | 𒐊𒈠𒈾 | ia<sub>2</sub> ma-na |
-| 8 | 𒈬𒈾𒄀 𒅔 | mu-na-gi-in |
+<span class="app">1</span> <span class="signe">𒀭𒋀𒆠</span><br>
+<sup>d</sup> Nanna
+
+<span class="app">2</span> <span class="signe">𒈗𒀀𒉌</span><br>
+lugal-a-ni
+
+<span class="app">3</span> <span class="signe">𒀭𒂄𒄀</span><br>
+<sup>d</sup> Šul-gi
+
+<span class="app">4</span> <span class="signe">𒍑𒆗𒂵</span><br>
+nita kala-ga
+
+<span class="app">5</span> <span class="signe">𒈗𒋀𒀊𒆠𒈠</span><br>
+lugal Uri<sup>ki</sup>-ma
+
+<span class="app">6</span> <span class="signe">𒈗𒀭𒌒𒁕𒇹𒁀𒆤</span><br>
+lugal an-ub-da limmu-ba-ke<sub>4</sub>
+
+<span class="app">7</span> <span class="signe">𒐊𒈠𒈾</span><br>
+ia<sub>2</sub> ma-na
+
+<span class="app">8</span> <span class="signe">𒈬𒈾𒄀 𒅔</span><br>
+mu-na-gi-in
 
 ## Vocabulaire
 

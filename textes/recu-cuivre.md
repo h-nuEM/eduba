@@ -12,18 +12,22 @@
 
 ### Obverse
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒌋𒁹𒇲𒁹𒄘𒍏 | 1(u) la<sub>2</sub> 1(aš) gu<sub>2</sub> urud |
-| 2 | 𒀸𒄘𒍏𒌓𒅗𒁇 | (1)aš gu<sub>2</sub> urud ba ka-bar |
+<span class="app">1</span> <span class="signe">𒌋𒁹𒇲𒁹𒄘𒍏</span><br>
+1(u) la<sub>2</sub> 1(aš) gu<sub>2</sub> urud
+
+<span class="app">2</span> <span class="signe">𒀸𒄘𒍏𒌓𒅗𒁇</span><br>
+(1)aš gu<sub>2</sub> urud ba ka-bar
 
 ### Reverse
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒂍𒃲𒆷𒁀𒇸 | e<sub>2</sub>-gal-la ba-ku<sub>x</sub> |
-| 2 | 𒀭𒎏𒄈𒋢𒅆𒁺 | <sup>d</sup>nin-gir<sub>2</sub>-su igi-du |
-| 3 | 𒋗𒁀𒋾 | šu ba-ti |
+<span class="app">1</span> <span class="signe">𒂍𒃲𒆷𒁀𒇸</span><br>
+e<sub>2</sub>-gal-la ba-ku<sub>x</sub>
+
+<span class="app">2</span> <span class="signe">𒀭𒎏𒄈𒋢𒅆𒁺</span><br>
+<sup>d</sup>nin-gir<sub>2</sub>-su igi-du
+
+<span class="app">3</span> <span class="signe">𒋗𒁀𒋾</span><br>
+šu ba-ti
 
 ## Traduction
 

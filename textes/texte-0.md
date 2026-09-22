@@ -6,15 +6,26 @@
 
 ## Texte
 
-| Ligne | Cunéiforme | Transcription |
-|---|---|---|
-| 1 | 𒀭𒋀𒆠 | <sup>d</sup>Inanna |
-| 2 | 𒎏𒀭𒈾 | nin-an-na |
-| 3 | 𒎏𒀀𒉌 | nin-a-ni |
-| 4 | 𒌨𒀭𒇉 | ur-<sup>d</sup>Nammu |
-| 5 | 𒈗𒋀𒀊𒆠𒈠𒆤 | lugal uri<sup>ki</sup>-ma-ke<sub>4</sub> |
-| 6 | 𒂍𒀀𒉌 | e<sub>2</sub>-a-ni |
-| 7 | 𒈬𒈾𒆕 | mu-na-du |
+<span class="app">1</span> <span class="signe">𒀭𒋀𒆠</span><br>
+<sup>d</sup>Inanna
+
+<span class="app">2</span> <span class="signe">𒎏𒀭𒈾</span><br>
+nin-an-na
+
+<span class="app">3</span> <span class="signe">𒎏𒀀𒉌</span><br>
+nin-a-ni
+
+<span class="app">4</span> <span class="signe">𒌨𒀭𒇉</span><br>
+ur-<sup>d</sup>Nammu
+
+<span class="app">5</span> <span class="signe">𒈗𒋀𒀊𒆠𒈠𒆤</span><br>
+lugal uri<sup>ki</sup>-ma-ke<sub>4</sub>
+
+<span class="app">6</span> <span class="signe">𒂍𒀀𒉌</span><br>
+e<sub>2</sub>-a-ni
+
+<span class="app">7</span> <span class="signe">𒈬𒈾𒆕</span><br>
+mu-na-du
 
 ## Vocabulaire
 
