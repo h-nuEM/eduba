@@ -8,8 +8,8 @@ Textes religieux sumériens du Louvre
 
 ## Planches
 
-![Copie](images/AO3024.png)
-![Photographie](images/P345345.jpg)
+[![Copie](images/P345345.jpg)](images/P345345.jpg)
+[![Photographie](images/P345345_img.jpg)](images/P345345_img.jpg)
 
 ## Texte
 
