@@ -25,14 +25,14 @@ e<sub>2</sub>-ki-imin-ga-gu<sub>10</sub> ga-ša-an-bi-ra
 <span class="app">4</span> <span class="signe">𒂍𒁴𒃲𒀭𒈾𒈬𒂵𒊭𒀭𒁉𒊏</span><br>
 e<sub>2</sub>-dim-gal-an-na-mu/gu<sub>10</sub> ga-ša-an-bi-ra
 
-<span class="app">5</span> <span class="signe">𒋫𒀀𒅆𒊏𒂡𒊏𒌉𒌉𒁉𒈬𒌦𒈾X</span><br>
-ta-a-igi-ra ezem-ra dumu dumu-bi mu-un-na-X
+<span class="app">5</span> <span class="signe">𒋼𒀀𒅆𒊏𒂡𒊏𒌉𒌉𒁉𒈬𒌦𒈾X</span><br>
+kar-igi-ra ezem-ra dumu dumu-bi mu-un-na-X
 
 <span class="app">6</span> <span class="signe">𒂵𒊭𒀭𒋫𒈬𒀋(?)𒅗𒈬𒊑𒍑𒀋(?)𒊕𒈬X</span><br>
 ga-ša-an-ta-gu<sub>10</sub> abba<sub>2</sub>-ka-gu<sub>10</sub> re nita abba<sub>2</sub>-gu<sub>10</sub> X
 
-<span class="app">7</span> <span class="signe">𒈬𒁺𒊑𒀀𒄞𒀭𒋢𒆳𒊒𒉣X𒌉(5asz?)𒋛𒈬𒉺𒑖𒅆𒁇𒊑</span><br>
-...
+<span class="app">7</span> <span class="signe">𒈬𒁺𒊑𒀀𒊭𒋫 𒀭𒋢𒆳X 𒉣X𒌉(5asz?)𒋛𒈬𒉺𒑖𒅆𒁇𒊑</span><br>
+mu-X-X-a-ta/sza {d}-su-ku-X
 
 <span class="app">8</span> <span class="signe">𒂵 𒌋𒈨(ou𒅆?) 𒋫 𒄩𒀊XXX𒌉(5asz?)X 𒉌X𒂊</span><br>
 ...
@@ -82,7 +82,7 @@ ki-ru-gu2 1(disz) kam-ma
 
 ## Traduction
 
-Il fonda la ville pour sa reine. (il fonda la ville pour la reine (bi: de la ville))
+La ville apporte du grain pour sa reine.
 Le bateau/phare pour sa reine, la déesse Sud
 
 ## Note
