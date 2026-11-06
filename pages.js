@@ -67,8 +67,8 @@ const textes = [
   { slug:'en-cours',         title:'Work in Progress',                  tag:'divers',     source:null,                      cdli:null,       date:'2026-01-10', edition:null, ready:true },
   { slug:'p315432',          title:'Unknown - P315432',                 tag:'divers',     source:'CDLI',                    cdli:'P315432',  date:'2026-02-07', edition:null, ready:true },
   { slug:'p391103',          title:'P391103',                           tag:'divers',     source:'CDLI',                    cdli:'P391103',  date:'2026-02-11', edition:null, ready:true },
-  { slug:'p507781',          title:'P507781',                           tag:'divers',     source:'CDLI',                    cdli:'P507781',  date:'2026-08-21', edition:null, ready:true },
-
+  { slug:'p507781',          title:'P507781',                           tag:'divers',     source:'CDLI',                    cdli:'P507781',  date:'2026-09-22', edition:null, ready:true },
+  { slug:'p214737',          title:'P214737',                           tag:'divers',     source:'CDLI',                    cdli:'P214737',  date:'2026-11-06', edition:null, ready:true },
 ];
 
 /* ── Les rubriques ─────────────────────────────────────
